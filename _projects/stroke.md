@@ -7,12 +7,27 @@ project_link: 'nicholas-ko-zy.github.io/projects/covid_dtw.html'
 
 # Stroke Prediction Model
 
-_I test 4 different models to see which one best predicts the presence of stroke in a patient based on several factors such as BMI and age. I used [SMOTE (Synthetic Minority Over-sampling Technique)](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html) to change the unbalanced data to balanced data set by oversampling the minority class (stroke patient) data._ 
+_I tested 4 different models to see which one best predicts the presence of stroke in a patient based on several factors such as BMI and age. I used [SMOTE (Synthetic Minority Over-sampling Technique)](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html) to change the unbalanced data to balanced data set by oversampling the minority class (stroke patient) data._ 
 
 ## Goal
-To predict stroke in patients based on their health and lifestyle information.
+To predict stroke in patients based on their health and lifestyle data.
 ## Data
 The dataset is taken from Kaggle. It contains the following variables. 
+
+|Index| Column Name | Data Type | Description|
+| --- |:--- |:--- |:--- |
+|1. | `'gender'`| Categorical| Male/Female/Other|
+|2.|  `'age'`|Numeric| Range of 0.08 (presumably babies) to 82 years old|
+|3. | `'hypertension`|Binary| 0/1|
+|4.|  `'heart_disease'`|Binary| 0/1|
+|5. | `'ever_married' ` |Binary| Yes/No|
+|6.  |`'work_type'`|Categorical| 'Private', 'Self-employed', 'Govt_job', 'children', 'Never_worked' |
+|7.  |`'Residence_type'`|Categorical| 'Urban', 'Rural'|
+|8.  |`'avg_glucose_level'`|Numerical| 55.12- 274.74. Normal Adult range: 90-110 mg/dL|
+|9.  |`'bmi'`|Numerical|10.3 - 97.6. 18-25 is considered healthy|
+|10. |`'smoking_status'`|Categorical|'formerly smoked', 'never smoked', 'smokes', 'Unknown'|
+
+
 ## Results
 #### Model 1: Simple logistic regression.
 The logistic model that was trained on unbalanced data had a very high accuracy of 96%. However this is because accuracy measures the number of total correct predictions. Since the data had more non-stroke patients, it could accurately predict non-strokes, but that is not our goal. The high accuracy of model 1 only shows that the model is good at predicting non-stroke cases. Instead, we are far more interested in the number of stroke patients the model can predict.

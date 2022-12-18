@@ -4,13 +4,13 @@ layout: inner
 ---
 # Bus Travel Patterns of Migrant Workers Living in Woodlands Dormitories
 
-_An analysis of origin-destination Bus Travel Data around migrant dorms in Woodlands. This project was done as part of a course requirement which I worked with Dolphie Bou to fulfill._
+_An analysis of origin-destination bus travel data around migrant dorms in Woodlands._
 
 ## Background
 
 Migrant worker welfare was severly affected during the Covid pandemic. Many couples were disappointed when construction of BTO (build-to-order) flats was delayed because of the shortage of workers who were held in their dorms because of COVID. News like this revealed Singapore's reliance on migrant workers in key areas like construction.
 
-With the increasing awareness of migrant worker's lack of welfare, this project came from an interest in the travel constraints of migrant workers to reach amenities like healthcare, groceries and food.  
+With the increasing awareness of migrant worker's lack of welfare, this project came from an interest in the travel constraints of migrant workers to reach amenities like healthcare and groceries.  
 
 ## Goal
 
@@ -23,7 +23,7 @@ My goal was to understand the following.
 ## Data 
 #### 1. Origin-Destination Bus Travel Data
 
-I obtained bus origin-destination data from LTA's open data platform, LTA Datamall. I was only able to obtain bus travel data for the months of July, August and September because of LTA's limits. 
+I obtained bus origin-destination data from LTA's open data platform, LTA DataMall. I was only able to obtain bus travel data for the months of July, August and September because of LTA's limits. 
 
 <html>
 <head>
@@ -96,8 +96,8 @@ I used Open Street Map to extract the bus routes that pass by the dormitories lo
 ## Results
 
 #### Amenities
+![](/img/bus/amenities.png)
 
-My groupmate Dolphie helped me with the analysis of the amenities around the migrant worker dormitories. We've found that, unsurprisingly, there are fewer amenities located near the migrant worker dormitories compared to residents living in the a nearby HDB estate.
 
 #### Travel Patterns
 
@@ -316,5 +316,6 @@ imageZoom("myimage10", "myresult10");
 
 ## Summary
 
-Migrant worker dormitories that are located deep within industrial areas lack access to amenities in general. However, **some dorms have better access <span style="color: red;">(multiple bus routes, fewer stops)</span>  to amenities** in the heartlands. This information may help NGOs such as Healthserve to **prioritise the setting up of new clinics close to dorms that require longer travel times to clinics/supermarkets/food places.**
+Migrant worker dormitories that are located deep within industrial areas lack access to amenities in general. This information may help NGOs such as Healthserve to **prioritise the setting up of services close to dorms that require longer travel times to clinics and supermarkets.** 
 
+Further analysis can explore the shortest route by bus from dormitories to amenities and compare it with those living in HDBs.

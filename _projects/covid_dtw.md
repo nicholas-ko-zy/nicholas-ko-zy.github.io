@@ -1,26 +1,26 @@
 ---
-title: COVID Policy Comparison.
+title: Covid Policy Comparison.
 layout: inner
 lead_text: A clustering project to compare government responses to Covid.
-project_link: 'nicholas-ko-zy.github.io/projects/covid_dtw.html'
+project_link: 'nicholas-ko-zy.github.io/projects/Covid_dtw.html'
 ---
 # Covid-19 Policy Comparison 
 
-_This is a clustering project where I compare the government responses to Covid between countries using [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) - an algorithm which measures the similarity between two signals irrespective of time. The dataset contains information on 229 countries._
+_This is a clustering project where I compare the government responses to Covid between countries that faced similar Covid fatality rates. I used [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) - an algorithm which measures the similarity between two signals irrespective of time. The dataset contains information on 229 countries._
 
 ## Background
-During the course of the pandemic, I had many conversations with people who argued for or against the efficacy of certain COVID-19 policies. I myself also questioned if lockdowns were necessary much later into the pandemic, so I looked to see if the data could give answers to **which policies are useful for reducing COVID fatalities.**
+During the course of the pandemic, I had many conversations with people who argued for or against the efficacy of certain Covid-19 policies. I myself also questioned if lockdowns were necessary much later into the pandemic, so I looked to see if the data could give answers to **which policies are useful for reducing Covid fatalities.**
 
-My first task was to cluster countries which experienced similar COVID fatalities. I found a way to cluster countries which experienced similar COVID peaks irrespective of when the peaks came using the dynamic time warping algorithm. The algorithm I implemented is found in many packages but the one I found most useful is the `ts-learn` package because of its clustering function.
+My first task was to cluster countries which experienced similar Covid fatalities. I found a way to cluster countries which experienced similar Covid peaks irrespective of when the peaks came using the dynamic time warping algorithm. The algorithm I implemented is found in many packages but the one I found most useful is the `ts-learn` package because of its clustering function.
 
-My second task was to peer into the clusters and understand what policies were imposed at the time of the COVID peaks.
+My second task was to peer into the clusters and understand what policies were imposed at the time of the Covid peaks.
 
 ## Goal
 
-Compare policies between countries that experience similar COVID fatalities (by month).
+Compare policies between countries that experience similar Covid fatalities (by month).
 
 ## Data
-The data was obtained from Google COVID-19 data hosted on github. The github page consists of multiple datasets that contain information related to the pandemic like masked movement data, economic data, demographic data. You may find the full data set [here](https://github.com/GoogleCloudPlatform/covid-19-open-data).
+The data was obtained from Google Covid-19 data hosted on github. The github page consists of multiple datasets that contain information related to the pandemic like masked movement data, economic data, demographic data. You may find the full data set [here](https://github.com/GoogleCloudPlatform/Covid-19-open-data).
 
 For this project I have used the following datasets
 
@@ -56,7 +56,7 @@ th {
   </tr>
     <tr>
     <td><code>Epidemiology</code></td>
-    <td>COVID-19 cases, deaths, recoveries and tests.</td>
+    <td>Covid-19 cases, deaths, recoveries and tests.</td>
   </tr>
     <tr>
     <td><code>Demographic</code></td>
@@ -121,7 +121,7 @@ We can observe that countries in cluster 4 are characterised by two Covid peaks.
 #### Cluster 8
 _Indonesia and the United Kingdom_
 
-Within cluster 8, we have that the peak COVID fatality takes place in the United Kingdom (UK) 7 months earlier than in Indonesia. We see that the peak number of COVID fatalities in both countries is very close after we algined the two signals together (right figure).
+Within cluster 8, we see that the peak Covid fatality takes place in the United Kingdom (UK) 7 months earlier than in Indonesia. We see that the peak number of Covid fatalities in both countries is very close after we aligned the two signals together (right figure).
 
 <html>
 <head>
@@ -183,10 +183,10 @@ With the alignment of the two signals, we can look into the government policies 
 <body>
 <div class="row">
   <div class="column">
-    <img src="/img/covid/indo.png" alt="Cluster 8" style="width:100%">
+    <img src="/img/Covid/indo.png" alt="Cluster 8" style="width:100%">
   </div>
   <div class="column">
-    <img src="/img/covid/uk.png" alt="Aligned" style="width:100%">
+    <img src="/img/Covid/uk.png" alt="Aligned" style="width:100%">
   </div>
 </div>
 
@@ -195,7 +195,7 @@ With the alignment of the two signals, we can look into the government policies 
 
 ![](/img/covid/indo_uk.png)
 
-We find that Indonesia and the UK’s COVID policies during the highest peak in COVID fatalities were largely similar. Although Indonesia has historically enact stronger “School Closing” and “Stay at Home” policies while the UK has imposed slightly stricter “Workplace Closing” policies. 
+We find that Indonesia and the UK’s Covid policies during the highest peak of Covid fatalities were largely similar. Although Indonesia has historically imposed stricter “School Closing” and “Stay at Home” policies while the UK has imposed slightly stricter “Workplace Closing” policies. 
 
 The same analysis can be repeated for countries in other clusters. 
 
