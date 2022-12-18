@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # About Nicholas Ko
 
-I am a data sscience major at [Yale-NUS College](https://www.yale-nus.edu.sg/about/key-facts/), a liberal arts college set up by Yale University and the National University of Singapore. I am currently in my third year and **open to work at a full-time internship position** from May 2023 to July 2023 (3 months).
+I am a data science major at [Yale-NUS College](https://www.yale-nus.edu.sg/about/key-facts/), a liberal arts college set up by Yale University and the National University of Singapore. I am currently in my third year and **open to work at a full-time internship position** from May 2023 to July 2023 (3 months).
 
 I have used R and Python in most of my projects. I recently explored visualisations of geospatial information using QGIS. 
 
