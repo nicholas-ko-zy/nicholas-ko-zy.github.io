@@ -4,7 +4,7 @@ layout: inner
 ---
 
 # Mangrove Research
-_I worked with Dr Michiel Van Brugel, to understand why certain plots of land had more mangrove species than other. I used the `vegan` package to measure the range of different species within a research plot on Pulau Ubin Island._
+_I worked with Dr Michiel Van Brugel, to understand why certain plots of land had more mangrove species than others. I used the `vegan` package to measure the range of different species within a research plot on Pulau Ubin Island._
 
 ## Goal
 Use bootstrap simulations to understand whether elevation or abundance or a combination of both elevation **and** abundance lead to the observed distribution of mangrove species on Pulau Ubin Island. 
