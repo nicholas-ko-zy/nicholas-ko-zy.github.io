@@ -147,10 +147,10 @@ Within cluster 8, we see that the peak Covid fatality takes place in the United 
 <body>
 <div class="row">
   <div class="column">
-    <img src="/img/covid/cluster_8.png" alt="Cluster 8" style="width:100%">
+    <img src="/img/covid/cluster_8.png" style="width:100%">
   </div>
   <div class="column">
-    <img src="/img/covid/c8_align.png" alt="Aligned" style="width:100%">
+    <img src="/img/covid/c8_align.png"  style="width:100%">
   </div>
 </div>
 
