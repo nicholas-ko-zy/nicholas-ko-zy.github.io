@@ -183,10 +183,10 @@ With the alignment of the two signals, we can look into the government policies 
 <body>
 <div class="row">
   <div class="column">
-    <img src="/img/Covid/indo.png" alt="Cluster 8" style="width:100%">
+    <img src="/img/Covid/indo.png" style="width:100%">
   </div>
   <div class="column">
-    <img src="/img/Covid/uk.png" alt="Aligned" style="width:100%">
+    <img src="/img/Covid/uk.png"  style="width:100%">
   </div>
 </div>
 
