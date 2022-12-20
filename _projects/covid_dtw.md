@@ -1,5 +1,5 @@
 ---
-title: Covid Policy Comparison.
+title: Covid Policy Comparison
 layout: inner
 lead_text: A clustering project to compare government responses to Covid using signal matching algorithm.
 project_link: 'nicholas-ko-zy.github.io/projects/Covid_dtw.html'

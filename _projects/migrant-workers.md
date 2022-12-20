@@ -1,5 +1,5 @@
 ---
-title: Bus Travel Patterns of Migrant Workers.
+title: Bus Travel Patterns of Migrant Workers
 layout: inner
 lead_text: Analysis of real-world origin-destination bus travel data around migrant dorms in Woodlands.
 
