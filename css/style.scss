@@ -65,8 +65,8 @@ img {
 }
 
 button.btn, input.btn {
-  padding: 10px 30px;
-  margin: 2em 0.5em;
+  padding: 8px 20px;
+  margin: 1em 0.5em;
   border: solid 1px #d5e0e7;
   border-radius: 4px;
   color: #2E4453;
@@ -79,7 +79,7 @@ button.btn, input.btn {
     box-shadow: 0 1px 0 #b0c5d2;
   }
   i {
-    padding-right: 0.5em;
+    padding-right: 0.1em;
   }
   @include bp-xsmall {
     @include horizontal-align;
@@ -206,7 +206,7 @@ button.btn, input.btn {
 	3.0 Posts
 --------------------------------------------------------------*/
 #portfolio .container {
-  margin-top: 10em;
+  margin-top: 5em;
   @include bp-xsmall {
     margin-top: 2em;
   }
