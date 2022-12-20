@@ -1,6 +1,7 @@
 ---
 title: Mangrove Forest Research
 layout: inner
+lead_text: A research project under Assoc. Professor Michiel Van Brugel to understand factors leading to mangrove forest regeneration on Pulau Ubin island.
 ---
 
 # Mangrove Research

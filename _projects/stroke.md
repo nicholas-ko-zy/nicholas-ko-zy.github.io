@@ -1,7 +1,7 @@
 ---
 title: Stroke Prediction
 layout: inner
-lead_text: Stroke Prediction Model
+lead_text: Prediction of stroke in patients using logistic regression and K-nearest neighbour models on various health metrics. 
 project_link: 'nicholas-ko-zy.github.io/projects/covid_dtw.html'
 ---
 

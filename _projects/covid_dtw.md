@@ -1,7 +1,7 @@
 ---
 title: Covid Policy Comparison.
 layout: inner
-lead_text: A clustering project to compare government responses to Covid.
+lead_text: A clustering project to compare government responses to Covid using signal matching algorithm.
 project_link: 'nicholas-ko-zy.github.io/projects/Covid_dtw.html'
 ---
 # Covid-19 Policy Comparison 
@@ -159,39 +159,19 @@ Within cluster 8, we see that the peak Covid fatality takes place in the United 
 
 With the alignment of the two signals, we can look into the government policies during the months when Indonesia and the UK experienced a surge in Covid fatalities. 
 
-<html>
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</head>
 <body>
 <div class="row">
   <div class="column">
-    <img src="/img/Covid/indo.png" style="width:100%">
+    <img src="/img/covid/uk.png" style="width:100%">
   </div>
   <div class="column">
-    <img src="/img/Covid/uk.png"  style="width:100%">
+    <img src="/img/covid/indo.png"  style="width:100%">
   </div>
 </div>
 
 </body>
-</html>
+
 
 ![](/img/covid/indo_uk.png)
 

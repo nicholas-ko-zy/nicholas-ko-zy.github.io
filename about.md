@@ -20,7 +20,6 @@ _I thought I would be a philosophy major, after that, an urban studies major but
 |📚  Linear Algebra |&nbsp;&nbsp;&nbsp;(Spring 2022)|
 |📚  Programming for Data Science |&nbsp;&nbsp;&nbsp;(Fall 2022)|
 |📚  Introduction to Data Science |&nbsp;&nbsp;&nbsp;(Spring 2021)|
-|📚  Linear Algebra |&nbsp;&nbsp;&nbsp;(Spring 2022)|
 |📚  Software Engineering |&nbsp;&nbsp;&nbsp;(Spring 2023)|
 |📚  Introduction to Computer Science|&nbsp;&nbsp;&nbsp;(Spring 2022)|
 |📚  Modelling and Optimisation |&nbsp;&nbsp;&nbsp;(Spring 2023)|
