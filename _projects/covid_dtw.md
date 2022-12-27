@@ -9,18 +9,18 @@ project_link: 'nicholas-ko-zy.github.io/projects/Covid_dtw.html'
 _This is a clustering project where I compare the government responses to Covid between countries that faced similar Covid fatality rates. I used [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) - an algorithm which measures the similarity between two signals irrespective of time. The dataset contains information on 229 countries._
 
 ## Background
-During the course of the pandemic, I had many conversations with people who argued for or against the efficacy of certain Covid-19 policies. I myself also questioned if lockdowns were necessary much later into the pandemic, so I looked to see if the data could give answers to **which policies are useful for reducing Covid fatalities.**
+During the course of the pandemic, I had many conversations with people who argued for or against the efficacy of certain Covid-19 policies. I also questioned if lockdowns were necessary much later into the pandemic, so I looked to see if the data show me **which policies have been useful to reduce Covid fatalities.**
 
-My first task was to cluster countries which experienced similar Covid fatalities. I found a way to cluster countries which experienced similar Covid peaks irrespective of when the peaks came using the dynamic time warping algorithm. The algorithm I implemented is found in many packages but the one I found most useful is the `ts-learn` package because of its clustering function.
+My first task was to cluster countries which experienced similar Covid fatalities. I found a way to cluster countries with similar Covid fatalities irrespective of when the peaks came using the dynamic time warping algorithm. The algorithm I implemented is found in many packages. The package I found most useful is the `ts-learn` package because of its out-of-the-box clustering function.
 
-My second task was to peer into the clusters and understand what policies were imposed at the time of the Covid peaks.
+My second task after clustering was to understand what policies were imposed during peaks of Covid fatality for each country within the cluster.
 
 ## Goal
 
 Compare policies between countries that experience similar Covid fatalities (by month).
 
 ## Data
-The data was obtained from Google Covid-19 data hosted on github. The github page consists of multiple datasets that contain information related to the pandemic like masked movement data, economic data, demographic data. You may find the full data set [here](https://github.com/GoogleCloudPlatform/Covid-19-open-data).
+I used the Google Covid-19 dataset hosted on github. The github page consists of multiple datasets that contain information related to the pandemic like masked movement data, economic data, demographic data. You may find the full data set [here](https://github.com/GoogleCloudPlatform/Covid-19-open-data).
 
 For this project I have used the following datasets
 
@@ -71,7 +71,7 @@ _The full notebook can be found on my [github](https://github.com/nicholas-ko-zy
 
 #### Cleaning
 
-I wrote a simple for-loop to iterative calculate the inertia for each n-clusters. 
+I wrote a simple for-loop to iteratively calculate the inertia for each n number of clusters. 
 
 {% highlight python %}
 # Step 1: Initialise empty array to store inertia values
@@ -105,23 +105,23 @@ inertia_df['n_clusters'] = inertia_df['n_clusters'].astype(int)
 ![Output of inertia dataframe.](/img/covid/inertia_df.png)
 _Output of inertia dataframe._
 
-Inertia is a measure of how well a dataset is clustered. A good model aims for a lower inertia score and low number of clusters. For example, a streaming service wants to cluster clients into categories based on what they watch. Too many clusters might make interpreting the preferences of each cluster. Too much inertia and you might still risk over generalising someone as preferring action films when they actually prefer _**80s-**_ action films
+Inertia is a measure of how well a dataset is clustered. A good model aims for a lower inertia score and low number of clusters. For example, a streaming service wants to cluster clients into categories based on what they watch. Too much inertia and you might risk over generalising your customers by grouping them in the same category when they are quite different. This will lead to inaccurate show/movie recommendations. However, too many clusters will make interpretation difficult or less intuitive. Therefore finding the right balance is key.
 
 #### Clustering
 I chose 8 clusters using the elbow method. 
 
 ![Elbow method.](/img/covid/elbow.png)
 ## Results
-We observe that there are a few countries which are in a class of their own in terms of fatalities suffered. There are many countries in both cluster 2 and 7 which could warrant further clustering. 
+We observe there are a few countries that suffered fatalities on a scale that is incomparable with other countries, like cluster 1,3,5,6. On the other hand clusters 2 and 7 contain many countries. Further analysis could look into further clustering clusters 2 and 7. 
 
 ![Elbow method.](/img/covid/clusters.png)
 
-We can observe that countries in cluster 4 are characterised by two Covid peaks. Upon closer inspection, we see that the countries in that cluster really do experience 2-3 Covid peaks during the 33 months (Jan 2020 - Aug 2022). For a full list of all the countries within each cluster, scroll to the bottom.
+Another insight we can gain from dynamic time warping is the general trend of peaks in fatalities. For instance, we observe that countries in cluster 4 are characterised by two Covid peaks. Upon closer inspection, we see that the countries in that cluster really do experience 2-3 Covid peaks during the 33 months (Jan 2020 - Aug 2022). For a full list of all the countries within each cluster, scroll to the bottom.
 
-#### Cluster 8
+#### Cluster 8 (Closer analysis)
 _Indonesia and the United Kingdom_
 
-Within cluster 8, we see that the peak Covid fatality takes place in the United Kingdom (UK) 7 months earlier than in Indonesia. We see that the peak number of Covid fatalities in both countries is very close after we aligned the two signals together (right figure).
+We now use cluster 8 demonstrate how aligning the two monthly fatality signals can help us compare government policies. Within cluster 8, we see that the peak Covid fatality takes place in the United Kingdom (UK) 7 months earlier than in Indonesia. We see that the peak number of Covid fatalities in both countries is very close after we aligned the two signals together (right figure).
 
 <html>
 <head>
@@ -157,7 +157,7 @@ Within cluster 8, we see that the peak Covid fatality takes place in the United 
 </body>
 </html>
 
-With the alignment of the two signals, we can look into the government policies during the months when Indonesia and the UK experienced a surge in Covid fatalities. 
+The visualisations of government policies during the peak in Covid fatalities is shown below.
 
 
 <body>

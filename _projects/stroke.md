@@ -7,7 +7,7 @@ project_link: 'nicholas-ko-zy.github.io/projects/covid_dtw.html'
 
 # Stroke Prediction Model
 
-_I tested 4 different models to see which one best predicts the presence of stroke in a patient based on several factors such as BMI and age. I used [SMOTE (Synthetic Minority Over-sampling Technique)](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html) to change the unbalanced data to balanced data set by oversampling the minority class (stroke patient) data._ 
+_I tested 4 different models to see which model best predicts an instance of stroke in a patient based on several factors such as BMI and age. I used [SMOTE (Synthetic Minority Over-sampling Technique)](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html) to change the unbalanced data to balanced data set by oversampling the minority class (stroke patient) data._ 
 
 ## Goal
 To predict stroke in patients based on their health and lifestyle data.
@@ -111,11 +111,11 @@ _We can see that SMOTE successfully increases the size of data on stroke patient
 
 ![model 2 result](/img/stroke/m2_result.png)
 
-We see here that we have slightly increased our stroke predictions to 15% , up from 0%. Model 2 also misdiagnosed 3% (93 rows) to have stroke when they actually did not have stroke.
+We see here that we have slightly increased our stroke predictions to 15% , up from 0%. Model 2 also misdiagnosed 3% of patients (93 / 5110 rows) to have stroke when they actually did not have stroke.
 
 #### Model 3: Logistic regression (with feature engineering).
 
-Model 3 was trained on the SMOTE transformed data and cut from 22 features to only 5 features. This was done through the process of feature engineering where the first n-features were calculated to
+Model 3 was trained on the SMOTE transformed data and cut from 22 features to only 5 features. This was done through the process of feature engineering where the results of the first n-features were iteratively tested to
 
 * maximise true positives
 
@@ -126,10 +126,10 @@ Model 3 was trained on the SMOTE transformed data and cut from 22 features to on
 It was found that the logistic regression model that have the first 5 features had the best performance.
 ![feature engineering](/img/stroke/fe.png)
 
-The 5 feature SMOTE logistic regression model is the best performing logistic regression model so far. It predicted 73% of the actual stroke cases (True Positives) and gave a false stroke diagnosis to 27% of the stroke cases (False Positives).
+The 5 feature SMOTE logistic regression model is the best performing logistic regression model so far. It predicted 73% of the actual stroke cases (True Positives) and gave a false stroke diagnosis to 27% of the stroke cases (False Positives). 
 
 #### Model 4: K-nearest neighbour classification.
-I have found that the K-nearest neighbour classification for k=4,5,6 gave the highest true positive score of 100% and the lowest false positive score of 0%.
+I have found that the K-nearest neighbour classification for k=4,5,6 gave the highest true positive score of 100% (predicted 100% of actual stroke cases) and the lowest false positive score of 4% (wrongly classified healthy paitents as at risk of stroke). 
 
 ## Summary 
 Models used:
@@ -185,3 +185,5 @@ th {
 
 
 ![](/img/stroke/summary.png)
+
+In the absence of a perfect model that correctly identifies stroke and non-stroke cases, the next best model should prioritise a high percentage of stroke diagnosis, even if this means wrongly diagnosing someone who does not have stroke. This is because it would be more devastating to tell someone they are not at risk of a stroke when they actually do, than to tell a healthy patient they are at risk of stroke when they are not. In other words, it would be better to err on the side of caution.

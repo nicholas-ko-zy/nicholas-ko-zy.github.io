@@ -5,21 +5,21 @@ lead_text: A research project under Assoc. Professor Michiel Van Brugel to under
 ---
 
 # Mangrove Research
-_I worked with Dr Michiel Van Brugel, to understand why certain plots of land had more mangrove species than others. I used the `vegan` package to measure the range of different species within a research plot on Pulau Ubin Island._
+_I worked with Dr Michiel Van Brugel, to understand why certain plots of land have greater diversity of mangrove species than others. I used the `vegan` package to measure the dissimilarity of mangrove species within each research plot on Pulau Ubin Island._
 
 ## Goal
-Use bootstrap simulations to understand whether elevation or abundance or a combination of both elevation **and** abundance lead to the observed distribution of mangrove species on Pulau Ubin Island. 
+Use bootstrap simulations to understand whether elevation and **abundance per plot** or elevation and **abundance across all plots** lead to the observed distribution of mangrove species on Pulau Ubin Island. 
 
 ## Data
-#### Species abundance per plot.
+#### Species abundance per plot
 
-The species abundance value is already adjusted based on the elevation and abundance of trees species within each plot. 
+We asked the question, "Does species abundance per plot affect the diversity of mangrove species?". The species abundance value has been adjusted based on the elevation and abundance of trees species within each plot. 
 
 ![](/img/mangrove/sp_abundance.png)
 
 #### Species abundance across all plot
 
-Species abundance weighted by abundance across all plots, not just the abundance within the research plot.
+Species abundance weighted by abundance across all plots and land elevation, not just the abundance within the research plot.
 
 ![](/img/mangrove/all_abund.png)
 
@@ -38,4 +38,4 @@ _Dissimilarity of population of mangrove species weighted by absolute abundance 
 ![](/img/mangrove/heatmap_3.png)
 
 ## Summary 
-We see that elevation and abundance can predict the presence of mangrove species diversity in the plots, except for plot 10 as indicated by the red cross in heatmap 1. This indicates that there might be a third factor aside from ground elevation and species abundance which might contribute the diversity of mangrove species in those research plots.
+We see that elevation and abundance can predict the presence of mangrove species diversity in the plots, except for plot 10 as indicated by the red cross in heatmap 1. Also simulating the diversity of mangrove trees using "abundance across all plots" instead of "abundance per plot" leads to higher accurary. 
