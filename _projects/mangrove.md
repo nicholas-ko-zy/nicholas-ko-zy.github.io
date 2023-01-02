@@ -38,4 +38,4 @@ _Dissimilarity of population of mangrove species weighted by absolute abundance 
 ![](/img/mangrove/heatmap_3.png)
 
 ## Summary 
-We see that elevation and abundance can predict the presence of mangrove species diversity in the plots, except for plot 10 as indicated by the red cross in heatmap 1. Also simulating the diversity of mangrove trees using "abundance across all plots" instead of "abundance per plot" leads to higher accurary. 
+We see that elevation and abundance can predict the presence of mangrove species diversity in the plots, except for plot 10 as indicated by the red cross in heatmap 1. Also simulating the diversity of mangrove trees using "abundance across all plots" instead of "abundance per plot" leads to higher accuracy. 
