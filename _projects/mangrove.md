@@ -13,7 +13,7 @@ Use bootstrap simulations to understand whether elevation and **abundance per pl
 ## Data
 #### Species abundance per plot
 
-We asked the question, "Does species abundance per plot affect the diversity of mangrove species?". The species abundance value has been adjusted based on the elevation and abundance of trees species within each plot. 
+We asked the question, "Does species abundance per plot contribute to the diversity of mangrove species?". The species abundance value has been adjusted based on the elevation and abundance of trees species within each plot. 
 
 ![](/img/mangrove/sp_abundance.png)
 
@@ -30,12 +30,14 @@ _Dissimilarity of population of mangrove species weighted by their elevation and
 
 ![](/img/mangrove/heatmap_1.png)
 
-_*Heatmap 2 contained an erroneous assumption so it is not featured here._
-#### Heatmap 3: Abundance across all plots
+#### Checking if results lie within confidence interval
 
-_Dissimilarity of population of mangrove species weighted by absolute abundance across all plots._
+I calculated the 0.05 and 0.95 percentile of a bootstrap resampling of the data. I used R to check if the results from the heatmap above were found inside the interval. The pink squares indicate that the values are outside the confidence interval. 
 
-![](/img/mangrove/heatmap_3.png)
+![](/img/mangrove/confidence_interval_simulation1.png) 
+
 
 ## Summary 
-We see that elevation and abundance can predict the presence of mangrove species diversity in the plots, except for plot 10 as indicated by the red cross in heatmap 1. Also simulating the diversity of mangrove trees using "abundance across all plots" instead of "abundance per plot" leads to higher accuracy. 
+This was an attempt at making sense of the mangrove data. I tried to use bootstrap sampling to create simulations of the mangrove communities. The hypothesis testing using confidence interval showed that the dissimilarity found in the simulated community was not due to randomness (all values were outside the 95% confidence interval). However, present literature suggests a more conventional NMDS (Non-metric Multidimensional Scaling) which was if given more time I would pursue. I have made a preliminary attempt below. 
+
+![](/img/mangrove/nmds.png) 
