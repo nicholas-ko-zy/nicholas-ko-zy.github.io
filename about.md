@@ -5,11 +5,15 @@ permalink: /about/
 ---
 # About Nicholas Ko
 
-I am a data science major at [Yale-NUS College](https://www.yale-nus.edu.sg/about/key-facts/), a liberal arts college set up by Yale University and the National University of Singapore. I am currently in my third year and **open to work at a full-time internship position** from May 2023 to July 2023 (3 months).
+I am a data science major at [Yale-NUS College](https://www.yale-nus.edu.sg/about/key-facts/), a liberal arts college set up by Yale University and the National University of Singapore. I am skilled in Python, R and passionate about using data to solve meaningful problems across disciplines. 
 
-I am skilled in Python, R and passionate about using data to solve meaningful problems across disciplines.
+I often get questions about what data science _is_, which is a fair question because it does sound like another buzzword. As Neil Postman wrote in "Teaching as a Subversive Activity", (I paraphrase) knowing what something's called isn't the same as knowing what it is or how it works. In my search for a concise way to explain myself at parties, I have found Drew Conway's venn diagram useful.
 
-_I thought I would be a philosophy major, after that, an urban studies major but finally settled on data science._
+<div style="display: flex; justify-content: center;">
+	<img src="/img/about/Data_Science_VD.png" alt="What is Data Science? A Venn Diagrammatic Explanation" style="max-width: 264px; max-height: 252px;">
+</div>
+
+I am currently a summer intern with Adatos.AI, where I use Python, R and QGIS to solve meaningful problems in agriculture.
 
 ## Courses
 
@@ -20,9 +24,11 @@ _I thought I would be a philosophy major, after that, an urban studies major but
 |📚  Linear Algebra |&nbsp;&nbsp;&nbsp;(Spring 2022)|
 |📚  Programming for Data Science |&nbsp;&nbsp;&nbsp;(Fall 2022)|
 |📚  Introduction to Data Science |&nbsp;&nbsp;&nbsp;(Spring 2021)|
+|📚  Modelling and Optimisation (Intro to Operations Research)|&nbsp;&nbsp;&nbsp;(Spring 2023)|
+|📚  Graph Theory |&nbsp;&nbsp;&nbsp;(Spring 2023)|
 |📚  Software Engineering |&nbsp;&nbsp;&nbsp;(Spring 2023)|
 |📚  Introduction to Computer Science|&nbsp;&nbsp;&nbsp;(Spring 2022)|
-|📚  Modelling and Optimisation |&nbsp;&nbsp;&nbsp;(Spring 2023)|
+
 
 &nbsp;
 
