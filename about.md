@@ -7,7 +7,7 @@ permalink: /about/
 
 I am a data science major at [Yale-NUS College](https://www.yale-nus.edu.sg/about/key-facts/), a liberal arts college set up by Yale University and the National University of Singapore. I am skilled in Python, R and passionate about using data to solve meaningful problems across disciplines. 
 
-I often get questions about what data science _is_, which is a fair question because it does sound like another buzzword. As Neil Postman wrote in "Teaching as a Subversive Activity", (I paraphrase) knowing what something's called isn't the same as knowing what it is or how it works. In my search for a concise way to explain myself at parties, I have found [Drew Conway's venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram) useful.
+I often get questions about what data science _is_, which is a fair question because it does sound like another buzzword. As Neil Postman wrote in _"Teaching as a Subversive Activity"_, (I paraphrase) knowing what something's called isn't the same as knowing what it is or how it works. In my search for a concise way to explain myself at parties, I have found [Drew Conway's venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram) useful.
 
 <div style="display: flex; justify-content: center;">
 	<img src="/img/about/Data_Science_VD.png" alt="What is Data Science? A Venn Diagrammatic Explanation" style="max-width: 264px; max-height: 252px;">
