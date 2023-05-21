@@ -13,7 +13,7 @@ I often get questions about what data science _is_, which is a fair question bec
 	<img src="/img/about/Data_Science_VD.png" alt="What is Data Science? A Venn Diagrammatic Explanation" style="max-width: 264px; max-height: 252px;">
 </div>
 
-I am currently a summer intern with Adatos.AI, where I use Python, R and QGIS to solve meaningful problems in agriculture.
+I am currently a summer intern with Adatos.AI, where I use Python, R and QGIS to solve meaningful problems in the agriculture sector.
 
 ## Courses
 
