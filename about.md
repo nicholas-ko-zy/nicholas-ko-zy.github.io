@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # About Nicholas Ko
 
-I am a data science major at [Yale-NUS College](https://www.yale-nus.edu.sg/about/key-facts/), a liberal arts college set up by Yale University and the National University of Singapore. I am skilled in Python, R and passionate about using data to solve meaningful problems across disciplines. 
+I am a mathematical, computational and statistical sciences major at [Yale-NUS College](https://www.yale-nus.edu.sg/about/key-facts/), a liberal arts college set up by Yale University and the National University of Singapore. I am skilled in Python, R and passionate about using data to solve meaningful problems across disciplines. 
 
 When someone ask me what data science is, I have often found an explanation using [Drew Conway's venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram) to be useful.
 
