@@ -13,18 +13,20 @@ When someone ask me what data science is, I have often found an explanation usin
 	<img src="/img/about/Data_Science_VD.png" alt="What is Data Science? A Venn Diagrammatic Explanation" style="max-width: 264px; max-height: 252px;">
 </div>
 
-I am currently a summer intern with Adatos.AI, where I use Python, R and QGIS to solve meaningful problems in the agriculture sector. I am also a huge fan of Neil Postman's works, I think "Amusing Ourselves to Death" should be made required reading in schools. 
+I am currently in pursuing my fourth year of undergrad. I am a huge fan of Neil Postman's works and I think "Amusing Ourselves to Death" should be made required reading in schools.
 
 ## Courses
 
 |Course|&nbsp;&nbsp;&nbsp;Semester|
 |:-----|:--------------|
+|📚 Generalised Linear Models|&nbsp;&nbsp;&nbsp;(Fall 2023)|
 |📚 Statistical Inference|&nbsp;&nbsp;&nbsp;(Spring 2023)|
 |📚 Probability|&nbsp;&nbsp;&nbsp;(Fall 2022)|
 |📚  Linear Algebra |&nbsp;&nbsp;&nbsp;(Spring 2022)|
 |📚  Programming for Data Science |&nbsp;&nbsp;&nbsp;(Fall 2022)|
 |📚  Introduction to Data Science |&nbsp;&nbsp;&nbsp;(Spring 2021)|
 |📚  Modelling and Optimisation (Intro to Operations Research)|&nbsp;&nbsp;&nbsp;(Spring 2023)|
+|📚 Introductory Data Structures and Algorithms|&nbsp;&nbsp;&nbsp;(Fall 2023)|
 |📚  Graph Theory |&nbsp;&nbsp;&nbsp;(Spring 2023)|
 |📚  Software Engineering |&nbsp;&nbsp;&nbsp;(Spring 2023)|
 |📚  Introduction to Computer Science|&nbsp;&nbsp;&nbsp;(Spring 2022)|
