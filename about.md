@@ -13,7 +13,6 @@ When someone ask me what data science is, I have often found an explanation usin
 	<img src="/img/about/Data_Science_VD.png" alt="What is Data Science? A Venn Diagrammatic Explanation" style="max-width: 264px; max-height: 252px;">
 </div>
 
-I am currently in pursuing my fourth year of undergrad. I am a huge fan of Neil Postman's works and I think "Amusing Ourselves to Death" should be made required reading in schools.
 
 ## Courses
 
