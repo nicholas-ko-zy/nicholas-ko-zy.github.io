@@ -5,4 +5,4 @@ permalink: /current/
 ---
 # Current Ventures
 
-As of May 2023, I have completed 6/8 semesters at Yale-NUS College and I will be graduating in May 2024. **I am currently in my fourth and final year of undergrad.** [This is my resume](https://nicholas-ko-zy.github.io/resume/).
+I am currently a senior at Yale-NUS College (2nd last batch). I graduate in May 2024 and [this is my resume](https://nicholas-ko-zy.github.io/resume/).
