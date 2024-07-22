@@ -13,7 +13,7 @@ Whenever someone ask me what I do, or what data science is, I have often found a
 	<img src="/img/about/Data_Science_VD.png" alt="What is Data Science? A Venn Diagrammatic Explanation" style="max-width: 264px; max-height: 252px;">
 </div>
 
-If I am not learning math or writing code, I do audio engineering at my local church and crochet in my spare time. I have been a jazz enthusiast ever since I heard Bill Evan's "Portrait in Jazz" album back in 2014.
+On the personal front, I have been a jazz enthusiast ever since I heard Bill Evan's "Portrait in Jazz" album in 2014. My favourite album is "Stan Getz & Bill Evans", favourite track of the album is "Grandfather's Waltz".
 
 ## Courses
 
