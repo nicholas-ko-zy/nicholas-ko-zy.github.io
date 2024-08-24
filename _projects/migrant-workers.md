@@ -2,7 +2,7 @@
 title: Bus Travel Patterns of Migrant Workers
 layout: inner
 lead_text: Analysis of real-world origin-destination bus travel data around migrant dorms in Woodlands.
-
+project_link: 'nicholas-ko-zy.github.io/projects/migrant-workers.html'
 ---
 # Bus Travel Patterns of Migrant Workers Living in Woodlands Dormitories
 
@@ -95,7 +95,21 @@ I used Open Street Map to extract the bus routes that pass by the dormitories lo
 
 ![I downloaded the OSM data using a QGIS plugin called `QuickOSM`](/img/bus/osm.gif)
 
+From OpenStreetMap, I imported the nodes into a CSV data set for cleaning.
+
+![Bus stop data cleaning in RStudio](/img/bus/route_169_df.png)
+_(Screenshot of bus 169's route, taken from OpenStreetMap)_
+
+![Bus stop data cleaning in RStudio](/img/bus/cleaning_code.png)
+_(A portion of my functional cleaning script. Full notebook is in my [Github](https://github.com/nicholas-ko-zy/dormitory_bus_travel))_
+
+I worked on the weak assumption that migrant workers would use the 2 closest bus stop to their dorm. The image below shows dotted lines that connects dorms in red to the nearest bus stops in yellow.
+
+![Bus stop data cleaning in RStudio](/img/bus/proof_of_concept.png)
+
+
 ## Results
+after some processing...
 
 #### Amenities
 ![](/img/bus/amenities.png)
