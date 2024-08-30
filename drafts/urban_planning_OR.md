@@ -1,7 +1,6 @@
 ---
 layout: inner
 title: Urban Planning and Operations Research
-permalink: /about/
 ---
 
 # Math, Urban Planning, Singapore
