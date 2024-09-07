@@ -5,4 +5,4 @@ permalink: /current/
 ---
 # Current Ventures
 
-I graduated from Yale-NUS College (2nd last batch) in May 2024 and [this is my resume](https://nicholas-ko-zy.github.io/resume/).
+I am currently working for the government of Singapore. I graduated from Yale-NUS College (2nd last batch) in May 2024 .

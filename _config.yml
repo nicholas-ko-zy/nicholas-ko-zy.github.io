@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Hello, I'm Nicholas Ko."
-email: 'nicholasko@u.yale-nus.edu.sg'
-description: "A mathematical, computational and statistical sciences major at Yale-NUS College."
+email: 'nicholas.ko.zy@outlook.com'
+description: "Just a Singaporean interested in operations research"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nicholas-ko-zy.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 github_username: 'nicholas-ko-zy'
@@ -31,6 +31,7 @@ plugins:
 collections:
     projects:
       output: true
+  
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

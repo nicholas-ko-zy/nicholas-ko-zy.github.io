@@ -5,15 +5,13 @@ permalink: /about/
 ---
 # About Nicholas Ko
 
-I am a mathematical, computational and statistical sciences major at [Yale-NUS College](https://www.yale-nus.edu.sg/about/key-facts/), a liberal arts college set up by Yale University and the National University of Singapore. I have experience with Python, R and QGIS.
+I majored in mathematical, computational and statistical sciences at [Yale-NUS College](https://www.yale-nus.edu.sg/about/key-facts/). I am currently employed in Singapore. Previously, I <u>interned at Adatos.AI</u>, where I worked on satellite image analysis. I am also a former <u> research assistant at Yale-NUS College</u> under Associate Professor Michiel van Breugel. I am grateful to all who taught me in each of these places.
 
-Whenever someone ask me what I do, or what data science is, I have often found an explanation using [Drew Conway's venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram) to be useful.
-
-<div style="display: flex; justify-content: center;">
-	<img src="/img/about/Data_Science_VD.png" alt="What is Data Science? A Venn Diagrammatic Explanation" style="max-width: 264px; max-height: 252px;">
-</div>
+Right now, I'm interested in operations research (OR) because I think there's rigourous math and useful modelling techniques there. Another reason that drew me to OR is because the field has managed to stay out of the limelight of popular media for now. I am a bit of a contrarian.
 
 On the personal front, I have been a jazz enthusiast ever since I heard Bill Evan's "Portrait in Jazz" album in 2014. My favourite album is "Stan Getz & Bill Evans", favourite track of the album is "Grandfather's Waltz".
+
+A bit on my academic background below.
 
 ## Courses
 
@@ -39,4 +37,13 @@ On the personal front, I have been a jazz enthusiast ever since I heard Bill Eva
 
 
 I am grateful to [Jami Gibbs](https://github.com/jamigibbs/phantom) for this website design. 
+
+The projects listed on the site were my submissions for some Yale-NUS classes I attended. 
+
+ChatGPT Use:
+
+* Site Layout: ChatGPT used to write code for the layout
+* Project Code: No ChatGPT was used (was not released yet at that time)
+* Pages: No ChatGPT was used for this 'About' page
+<!-- * Blog Post: No ChatGPT was used -->
 
