@@ -80,6 +80,7 @@ Equation (8) tells us the population in each tract will increase if there are mo
 <u> Equation 11 suppresses housing density to prevent overcrowding in the tracts.</u>
 
 $$
+\large
 \begin{align}
 \frac{N_j}{A^H_j} &\leq Z^H_j\tag{11} \\
 \end{align} 
@@ -136,6 +137,7 @@ Unspecified functions and coefficients: $$a,b,c,d,e,f,g$$
 **Area**
 
 $$
+\large
 \begin{align}
   A_j &= A_j^U + A_j^B + A_j^R +A_j^H \\ \tag{1}
 \end{align}
@@ -146,6 +148,7 @@ $$
 **Employment**
 
 $$
+\large
 \begin{align}
   E^k &= a^k N \tag{2} \\
   E^k &= b^k \left[\sum^n_{k=1} \left(\frac{c^kN_i}{T_{ij}^k} + d^k E_j\right)\right] \tag{3}\\
@@ -168,6 +171,7 @@ $$
 **Housing**
 
 $$
+\large
 \begin{align}
   N &= f \sum^n_{j=1} E_j \tag{7}\\
 N_j &= g \sum^n_{i=1} \frac{E_i}{T_{ij}} \tag{8} \\ 
@@ -184,6 +188,7 @@ $$
 **Constraints**
 
 $$
+\large
 \begin{align}
 E_j^k &\geq Z^k \hspace{0.5cm} \text{, or else $E_j^k=0$} \tag{10} \\
 N_j &\leq Z^H_jA^H_j \tag{11} \\
