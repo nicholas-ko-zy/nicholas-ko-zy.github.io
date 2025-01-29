@@ -5,9 +5,6 @@ post_link: 'nicholas-ko-zy.github.io/blog/urban_planning_math.html'
 publish_date: '29 Jan 2024'
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
-
 # Mathematical Modelling & Urban Planning: Lowry's Pittsburgh Model
 
 When I was in university, I read a paper that used math for urban planning. I remember choosing to take that urban studies class because it was non-technical, so I was quite surprised to see math equations in one of my readings. When I was looking for something to write about for my first blog post, I decided it would be on that paper - [“A Model of Metropolis"](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM4035.pdf) by Ira S. Lowry.
