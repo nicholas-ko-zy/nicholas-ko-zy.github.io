@@ -29,7 +29,7 @@ $$
 
 Where,
 
-* $U$: Usable but unoccupied land
+* $$U$$: Usable but unoccupied land
 * $B$: Basic sector (business)
 * $R$: Retail sector (business)
 * $H$: Household sector (residential)
