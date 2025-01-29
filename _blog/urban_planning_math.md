@@ -19,7 +19,7 @@ At beginning of modelling process, Lowry divided Pittsburgh into 1-sq mile piece
 </div>
 </html>
 
-The area within the $j$-th tract was a sum of areas for 4 land-use types, represented by equation (1).
+The area within the $$j$$-th tract was a sum of areas for 4 land-use types, represented by equation (1).
 
 $$
 \large
@@ -31,9 +31,9 @@ $$
 Where,
 
 * $$U$$: Usable but unoccupied land
-* $B$: Basic sector (business)
-* $R$: Retail sector (business)
-* $H$: Household sector (residential)
+* $$B$$: Basic sector (business)
+* $$R$$: Retail sector (business)
+* $$H$$: Household sector (residential)
 
 Lowry defined each land-use type as such:
 
@@ -67,15 +67,15 @@ $$
  
 Where, 
 
-* $N_j$ is the housing population in the tract $j$
+* $$N_j$$ is the housing population in the tract $$j$$
 
-* $g$ is some unspecified coefficient, 
+* $$g$$ is some unspecified coefficient, 
 
-* $E_j$ is the number of employment opportunities in tract $i$ 
+* $$E_j$$ is the number of employment opportunities in tract $$i$$ 
 
-* $T_{ij}$ is the pairwise distance between tracts $i$ and $j$. 
+* $$T_{ij}$$ is the pairwise distance between tracts $$i$$ and $$j$$. 
 
-Equation (8) tells us the population in each tract will increase if there are more employment opportunities within a short distance. Lowry is assuming people will buy houses near their workplaces. A large $N_j$ implies many jobs (large $E_i$) within a short distance (small $T_{ij}$) of tract $j$.
+Equation (8) tells us the population in each tract will increase if there are more employment opportunities within a short distance. Lowry is assuming people will buy houses near their workplaces. A large $$N_j$$ implies many jobs (large $$E_i$$) within a short distance (small $$T_{ij}$$) of tract $$j$$.
 
 <u> Equation 11 suppresses housing density to prevent overcrowding in the tracts.</u>
 
@@ -87,13 +87,13 @@ $$
 
 Where, 
 
-* $N_j$ is the housing population in the tract $j$
+* $$N_j$$ is the housing population in the tract $$j$$
 
-* $A^H_j$ is the area of land-use assigned to housing
+* $$A^H_j$$ is the area of land-use assigned to housing
 
-* $Z^H_j$ is the arbitrary population density cap to avoid overcrowding.
+* $$Z^H_j$$ is the arbitrary population density cap to avoid overcrowding.
 
-Here, Lowry sets an arbitrary population density ratio $Z_j^H$. The ratio between population to area in tract $j$ cannot exceed this ratio. 
+Here, Lowry sets an arbitrary population density ratio $$Z_j^H$$. The ratio between population to area in tract $$j$$ cannot exceed this ratio. 
 
 _(Remarks: I rewrote the original equation (11) for ease of reading. The full set of equations and the table of notations are found below.)_
 
@@ -101,35 +101,35 @@ After the area allocated for housing in each tract is determined, the “market 
 
 At the iterative step, the model enters a loop to assign the number of retail businesses based on the calculated market potential and subsequently assigns housing for retail workers. The loop breaks when all retail workers are housed and all constraints are satisfied. Explained briefly, the constraints ensure that each retail business serves a minimum number of customers to remain profitable, population density does not exceed a preset number and all areas sum up to the total area of available land. A fuller explanation of the iterative step constraints are listed in equations (10) - (11) of the full model below. 
 
-I've broken the model roughly into four groups, area ($A$), employment ($E$) and housing ($N$) and constraints. However, there are some interaction equations that cannot be neatly classified in any one group.
+I've broken the model roughly into four groups, area ($$A$$), employment ($$E$$) and housing ($$N$$) and constraints. However, there are some interaction equations that cannot be neatly classified in any one group.
 
 
 **Notations**
 
 | Decision Variable Notations | Meaning                             |
 |-----------------------------|-------------------------------------|
-| $A$                         | Area of land (thousand square feet) |
-| $E$                         | Employment (number of persons)      |
-| $N$                         | Population (number of households)   |
-| $T$                         | Index of trip distribution          |
-| $Z$                         | Constraints                         |
+| $$A$$                         | Area of land (thousand square feet) |
+| $$E$$                         | Employment (number of persons)      |
+| $$N$$                         | Population (number of households)   |
+| $$T$$                         | Index of trip distribution          |
+| $$Z$$                         | Constraints                         |
 {:.table}
 
 
 | Super/Subscript Notations | Meaning                                                                                                  |
 |---------------------------|----------------------------------------------------------------------------------------------------------|
-| $U$                       | Usable Land                                                                                              |
-| $B$                       | Basic Sector                                                                                             |
-| $R$                       | Retail Sector                                                                                            |
-| $H$                       | Household Sector                                                                                         |
-| $k$                       | Retail sector/Shopping trip class. Examples of a class include 'Food and Drugs', 'Department Stores' etc. |
-| $m$                       | number of classes of retail establishments ($k = 1, ...,m$); Lowry used m=10.                            |
-| $i, j$                    | Sub-areas of a bounded region, <u> called tracts </u>                                                    |
-| $n$                       | Number of tracts ($i=1,...,n; j =1,...n$)                                                                |
+| $$U$$                       | Usable Land                                                                                              |
+| $$B$$                       | Basic Sector                                                                                             |
+| $$R$$                       | Retail Sector                                                                                            |
+| $$H$$                       | Household Sector                                                                                         |
+| $$k$$                       | Retail sector/Shopping trip class. Examples of a class include 'Food and Drugs', 'Department Stores' etc. |
+| $$m$$                       | number of classes of retail establishments ($$k = 1, ...,m$$); Lowry used m=10.                            |
+| $$i, j$$                    | Sub-areas of a bounded region, <u> called tracts </u>                                                    |
+| $$n$$                       | Number of tracts ($$i=1,...,n; j =1,...n$$)                                                                |
 {:.table}
 
 
-Unspecified functions and coefficients: $a,b,c,d,e,f,g$
+Unspecified functions and coefficients: $$a,b,c,d,e,f,g$$
 
 ## Full Model 
 
@@ -141,7 +141,7 @@ $$
 \end{align}
 $$
 
-(1) The area within the $j$-th tract is a sum of areas for 4 land-use types: Usable but unoccupied land, basic sector, retail sector, housing.
+(1) The area within the $$j$$-th tract is a sum of areas for 4 land-use types: Usable but unoccupied land, basic sector, retail sector, housing.
 
 **Employment**
 
@@ -155,11 +155,11 @@ $$
 \end{align}
 $$
 
-(2) $E^k$ denotes the employment for the $k$-th retail sector, a function of how many people live in the area. Lowry supposed that the more people lived in the area, the more employment required in the retail sector. $a^k$ is a weight that represents the market potential of the given location. 
+(2) $$E^k$$ denotes the employment for the $$k$$-th retail sector, a function of how many people live in the area. Lowry supposed that the more people lived in the area, the more employment required in the retail sector. $$a^k$$ is a weight that represents the market potential of the given location. 
 
-(3) The RHS expresses employment as a measure of distance between homes and shopping areas. $\left(\frac{c^kN_i}{T^k_{ij}}\right)$ is a ratio of the  number of residents in tract $i$ to a score of the distance between tracts $i$ and $j$. It is a confusing but reasonable assumption that people will travel to neighbouring tracts for shopping if it’s not very far away.
+(3) The RHS expresses employment as a measure of distance between homes and shopping areas. $$\left(\frac{c^kN_i}{T^k_{ij}}\right)$$ is a ratio of the  number of residents in tract $$i$$ to a score of the distance between tracts $$i$$ and $$j$$. It is a confusing but reasonable assumption that people will travel to neighbouring tracts for shopping if it’s not very far away.
 
-(4) The total employment in the $k$-th retail sector is the sum of employment in the $k$-th retail sector in all tracts
+(4) The total employment in the $$k$$-th retail sector is the sum of employment in the $$k$$-th retail sector in all tracts
 
 (5) Sum of all retail sectors employment and basic sector employment is the total employment for each tract.
 
@@ -177,7 +177,7 @@ $$
 
 (7) The region's population of households is a function of employment. The assumption here is that people can only live if they have jobs to pay for housing.
 
-(8) The number of households in a tract is a function of distance to employment opportunities. The $T_{ij}$ term handles the pair-wise distance between tracts.
+(8) The number of households in a tract is a function of distance to employment opportunities. The $$T_{ij}$$ term handles the pair-wise distance between tracts.
 
 (9) Sum of residents in all tracts must equal total population count.
 
@@ -195,7 +195,7 @@ $$
 
 (11) The population density of a tract is suppressed by this equation. The greater the accessibility of the tract, the lower the population density.
 
-(12) Amount of land used for retail cannot exceed available land (which equals the sum of land in the $j$-th tract minus all other land use areas)
+(12) Amount of land used for retail cannot exceed available land (which equals the sum of land in the $$j$$ -th tract minus all other land use areas)
 
 ## Results
 
