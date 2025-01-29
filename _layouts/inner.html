@@ -1,18 +1,35 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ page.title }}</title>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script type="text/javascript">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      }
+    });
+  </script>
+</head>
+<body>
 
 {% include header.html %}
 
-  <article>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-
-          {{ content }}
-
-        </div>
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        {{ content }}
       </div>
     </div>
-  </article>
+  </div>
+</article>
 
 {% include footer.html %}
 
+</body>
+</html>
