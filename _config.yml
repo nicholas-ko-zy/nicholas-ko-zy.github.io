@@ -25,9 +25,6 @@ linkedin_username: 'nicholas-ko-zy'
 markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
 
-kramdown:
-  math_engine: mathjax
-
 plugins:
   - jekyll-paginate
 
