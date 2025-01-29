@@ -6,7 +6,7 @@ title: Urban Planning and Operations Research
 # Math and Urban Planning: Lowry's Pittsburgh Model
 
 ## Introduction
-In the 1960s, computational tools for urban planning were just beginning to be used for transportation simulations. Lowry's Pittsburgh model was an attempt to extend urban transportation models to include people and businesess. His model of the city of Pittsburgh, Pennsylvania was first published in the 1964 report, "A Model of Metropolis". It is formulated as a linear programming problem, solved on an IBM 7090.
+In the 1960s, computational tools for urban planning were beginning to be used for transportation simulations. Lowry's Pittsburgh model was an attempt to extend transportation models to include people and businesses in the city. His model of the mathematical city of Pittsburgh, Pennsylvania was first published in the 1964 report, "A Model of Metropolis". It is formulated as a linear programming problem, solved on an IBM 7090.
 
 [Insert picture of an IBM 7090]
 

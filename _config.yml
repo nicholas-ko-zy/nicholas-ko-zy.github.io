@@ -29,7 +29,7 @@ plugins:
   - jekyll-paginate
 
 collections:
-    projects:
+    blog:
       output: true
   
 
@@ -109,7 +109,7 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/projects', text: 'Projects' }
+  - { url: '/blog', text: 'Blog' }
   - { url: '/resume', text: 'Resume' }
   - { url: '/about', text: 'About' }
   - { url: '/current', text: 'Current Ventures' }

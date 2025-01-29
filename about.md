@@ -38,12 +38,9 @@ A bit on my academic background below.
 
 I am grateful to [Jami Gibbs](https://github.com/jamigibbs/phantom) for this website design. 
 
-The projects listed on the site were my submissions for some Yale-NUS classes I attended. 
 
 ChatGPT Use:
 
 * Site Layout: ChatGPT used to write code for the layout
-* Project Code: No ChatGPT was used (was not released yet at that time)
-* Pages: No ChatGPT was used for this 'About' page
-<!-- * Blog Post: No ChatGPT was used -->
+* Blog: ChatGPT used for HTML and CSS, no ChatGPT used for content.
 
