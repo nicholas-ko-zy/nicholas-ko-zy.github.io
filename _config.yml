@@ -27,6 +27,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-paginate
+  - jekyll-spaceship
 
 collections:
     blog:
