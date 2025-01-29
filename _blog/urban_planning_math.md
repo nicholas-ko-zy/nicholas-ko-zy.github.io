@@ -22,6 +22,7 @@ At beginning of modelling process, Lowry divided Pittsburgh into 1-sq mile piece
 The area within the $j$-th tract was a sum of areas for 4 land-use types, represented by equation (1).
 
 $$
+\large
 \begin{align}
   A_j &= A_j^U + A_j^B + A_j^R +A_j^H \tag{1}\\
 \end{align}
@@ -58,6 +59,7 @@ At the waterfall step, the model distributes housing across the city based on th
 <u> Equation 8 minimises commute time.</u>
 
 $$
+\large
 \begin{align}
 N_j &= g \sum^n_{i=1} \frac{E_i}{T_{ij}} \tag{8} \\ 
 \end{align}
