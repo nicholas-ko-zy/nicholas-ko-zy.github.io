@@ -277,7 +277,7 @@ Although there was no causal evidence, Lowry claimed that his model predicted a 
 
 <html>
 <div style="text-align: center;">
-  <img src="/img/blog/urban_planning_or/IBM_7090.jpg" alt="Description" width="678" height="540">
+  <img src="/img/blog/urban_planning_or/IBM_7090.jpg" alt="Description" style="width: 65%; height: auto;">
   <p><em>A photo of an IBM 7090, the computer model used to run Lowry's simulations.</em></p>
 </div>
 </html>
