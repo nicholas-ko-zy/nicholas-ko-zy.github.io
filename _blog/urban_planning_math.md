@@ -2,7 +2,6 @@
 title: "Mathematical Modelling in Urban Planning"
 layout: inner
 post_link: 'nicholas-ko-zy.github.io/blog/urban_planning_math.html'
-publish_date: '29 Jan 2024'
 ---
 
 # Mathematical Modelling & Urban Planning: Lowry's Pittsburgh Model
