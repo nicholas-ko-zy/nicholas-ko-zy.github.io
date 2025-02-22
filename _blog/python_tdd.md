@@ -1,5 +1,5 @@
 ---
-title: "Learning about Test-Driven Development in Python "
+title: "Learning about Test-Driven Development in Python"
 layout: inner
 post_link: 'nicholas-ko-zy.github.io/blog/python_tdd.html'
 publish_date: 2025-02-22
@@ -10,7 +10,7 @@ publish_date: 2025-02-22
  
 Recently, I hopped onto this video tutorial: ["TDD Full Course (Learn Test Driven Development with Python)"](https://www.youtube.com/watch?v=eAPmXQ0dC7Q) by Wes Doyle.
 
-In the video, he teaches a few principles of test-driven development while building a simple web app to do Named Entity Recognition. Named Entity Recognition is a natural language processing (NLP) task that classifies words into some abstract categories like Bill Evans $\rightarrow$ Person and 1968 $\rightarrow$ Date. 'Bill Evans' and '1968' would be our entities. 'Person' and 'Date' would be the types/categories that the NLP model outputs.  
+In the video, he teaches a few principles of test-driven development while building a simple web app to do Named Entity Recognition. Named Entity Recognition is a natural language processing (NLP) task that classifies words into some abstract categories like Bill Evans $\rightarrow$ Person and 1968 $\rightarrow$ Date. 'Bill Evans' and '1968' would be our entities. 'Person' and 'Date' would be the types/categories that the NLP model outputs.
 
 Wes Doyle used the open source [`en_core_web_sm` Named Entity Recognition model from `spaCy` for his web app.](https://spacy.io/models/en) **All credit goes to Wes Doyle for writing the code. I merely forked his repo and fixed a few lines of code due to upgrades in the dependencies.**
 
