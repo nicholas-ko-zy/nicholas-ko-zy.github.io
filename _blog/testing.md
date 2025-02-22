@@ -1,7 +1,7 @@
 ---
 title: "Testing"
 layout: inner
-post_link: 'nicholas-ko-zy.github.io/blog/python_tdd.html'
+post_link: 'nicholas-ko-zy.github.io/blog/testing.html'
 publish_date: 2025-02-22
 ---
 
