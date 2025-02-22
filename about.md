@@ -41,6 +41,7 @@ I am grateful to [Jami Gibbs](https://github.com/jamigibbs/phantom) for this web
 
 ChatGPT Use:
 
-* Site Layout: ChatGPT used to write code for the layout
-* Blog: ChatGPT used for HTML and CSS, no ChatGPT used for content.
+* Site Layout: ChatGPT used to write HTML and CSS code.
+  
+* Blog: No ChatGPT used for writing. The spelling and grammar mistakes you see are wholly mine. ;) ChatGPT to used to debug project code. 
 
