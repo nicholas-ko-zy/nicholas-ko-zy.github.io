@@ -47,7 +47,7 @@ To run my fork of Wes Doyle's project on your own PC: [Link Here](https://github
 
 # What I learnt...
 
-I've written a hodgepodge of lesson learnt as I followed along the tutorial. It's for my future reference and also to help anyone who might run into similar problems in this tutorial too. :feet:
+I've written a hodgepodge of lesson learnt as I followed along the tutorial. It's for my future reference and also to help anyone who might run into similar problems in this tutorial too. 🐾
 
 
 - [What I learnt...](#what-i-learnt)
