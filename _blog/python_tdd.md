@@ -116,7 +116,7 @@ class NamedEntityClient:
         return {}
 ```
 
-The difference here is that we still get to preserve the functionality of the `get_ents` method. Meaning, you can still pass a sentence to the model to generate some output. But now, instead of instantiating the specific model you want to use when you create a fresh instance of `NamedEntityClient`, you sort of push the responsibility of specifying your model to a 'higher' level of abstraction. You do this by adding a `model` argument to the initialisation method. Of course, this decision will influence the way your test cases are written. The test case will now need a placeholder `model` variable after we've abstracted `model`. This brings us to our next lesson on using 'mocks' in tests.
+The difference here is that we still get to preserve the functionality of the `get_ents` method. Meaning, you can still pass a sentence to the model to generate some output. But now, instead of instantiating the specific model you want to use when you create a fresh instance of `NamedEntityClient`, you sort of push the responsibility of specifying your model to a 'higher' level of abstraction. You do this by adding a `model` parameter to the initialisation method. Of course, this decision will influence the way your test cases are written. The test case will now need a placeholder `model` variable after we've abstracted `model`. This brings us to our next lesson on using 'mocks' in tests.
 
 ## What I learnt: Creating a mock for the Named Entity Client Model.
 
