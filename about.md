@@ -43,5 +43,5 @@ ChatGPT Use:
 
 * Site Layout: ChatGPT used to write HTML and CSS code.
   
-* Blog: No ChatGPT used for writing. The spelling and grammar mistakes you see are wholly mine. ;) ChatGPT to used to debug project code. 
+* Blog: No ChatGPT used for writing. The spelling and grammar mistakes you see are wholly mine. ;) ChatGPT used to debug project code. 
 
