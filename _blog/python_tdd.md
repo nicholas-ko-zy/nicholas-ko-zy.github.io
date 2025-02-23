@@ -51,19 +51,19 @@ I've written a hodgepodge of lesson learnt as I followed along the tutorial. It'
 
 
 - [What I learnt...](#what-i-learnt)
-  - [What I learnt: 3 Rules of Test-Driven Development](#what-i-learnt-3-rules-of-test-driven-development)
-  - [What I learnt: Dependency Inversion Principle](#what-i-learnt-dependency-inversion-principle)
+  - [What I learnt: 3 Rules of Test-Driven Development.](#what-i-learnt-3-rules-of-test-driven-development)
+  - [What I learnt: Dependency Inversion Principle.](#what-i-learnt-dependency-inversion-principle)
   - [What I learnt: Creating a mock for the Named Entity Client Model.](#what-i-learnt-creating-a-mock-for-the-named-entity-client-model)
   - [What I learnt: Terminal Command to run a single test.](#what-i-learnt-terminal-command-to-run-a-single-test)
   - [What I learnt: Another way to run a single test.](#what-i-learnt-another-way-to-run-a-single-test)
-  - [What I learnt: You have to run app.py before running your `test_index_e2e.py` file](#what-i-learnt-you-have-to-run-apppy-before-running-your-test_index_e2epy-file)
-  - [What I learnt: Automatically installing the packages used in the project](#what-i-learnt-automatically-installing-the-packages-used-in-the-project)
+  - [What I learnt: You have to run app.py before running your `test_index_e2e.py` file.](#what-i-learnt-you-have-to-run-apppy-before-running-your-test_index_e2epy-file)
+  - [What I learnt: Automatically installing the packages used in the project.](#what-i-learnt-automatically-installing-the-packages-used-in-the-project)
   - [What I learnt: I git cloned Wes Doyle's project from Github but it didn't work out of the box for me.](#what-i-learnt-i-git-cloned-wes-doyles-project-from-github-but-it-didnt-work-out-of-the-box-for-me)
-  - [What I learnt: Summary of test types done](#what-i-learnt-summary-of-test-types-done)
-  - [Concluding Remarks](#concluding-remarks)
+  - [What I learnt: Summary of test types done.](#what-i-learnt-summary-of-test-types-done)
+  - [Concluding Remarks.](#concluding-remarks)
 
 
-## What I learnt: 3 Rules of Test-Driven Development
+## What I learnt: 3 Rules of Test-Driven Development.
 
 1. Write a failing test first.
 
@@ -79,7 +79,7 @@ python3 -m pytest
 
 Note to self: Read up about SOLID principles for Object Oriented Programming.
 
-## What I learnt: Dependency Inversion Principle
+## What I learnt: Dependency Inversion Principle.
 
 [(Timestamp: 22:59)](https://youtu.be/eAPmXQ0dC7Q?si=sXnDUc8BLDbDXPLh&t=1379)
 At this time, Doyle shows a live coding example of the "Dependency Inversion Principle". It's the 'D' in SOLID Principles of object oriented programming. The principle is about making sure classes depend on abstractions not concretes. Here's an example using the `ner_client.py` file from the tutorial.
@@ -192,14 +192,14 @@ Find a unique substring in the name of your test to replace `"your_test_name"` a
 pytest -k "your_test_name"
 ```
 
-## What I learnt: You have to run app.py before running your `test_index_e2e.py` file
+## What I learnt: You have to run app.py before running your `test_index_e2e.py` file.
 Run this to get the flask app running before running the end-to-end test.
 
 ```
 python3 app.py
 ```
 
-## What I learnt: Automatically installing the packages used in the project
+## What I learnt: Automatically installing the packages used in the project.
 
 If the project doesn't have a requirements file you can...
 
@@ -226,8 +226,10 @@ If the project doesn't have a requirements file you can...
 I asked ChatGPT for help, here's what I've found
 
 - I had to create a new environment and check that I have all the
-packages in needed installed. To do so, follow the lessons above.
+packages I needed installed.
+
 - After that I needed to run `pip install -e .` in my terminal.
+  
 - I tried running `app.py` and found the front-end was not working. ChatGPT's advice was to check the console in the web browser which was hosting the app.
 
 This was what I saw:
@@ -252,10 +254,10 @@ ner = NamedEntityClient(ner, displacy)
 ```
 It worked for me after that.
 
-## What I learnt: Summary of test types done
+## What I learnt: Summary of test types done.
 - Unit test
   
-- End-toEnd (e2e) browser automation test
+- End-to-End (e2e) browser automation test
   
 - Integration test on the API
 
@@ -268,7 +270,7 @@ Note to self: Things to explore next are
   
 * Creating/hosting a dynamic website (preferably for free)
 
-## Concluding Remarks
+## Concluding Remarks.
 
 Learning about test-driven development made me think of what I expect my functions to do before I start writing them. Hmm...I like it.
 
