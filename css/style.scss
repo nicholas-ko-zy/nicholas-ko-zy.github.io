@@ -340,24 +340,56 @@ button.btn, input.btn {
 /*--------------------------------------------------------------
 	5.0 Code formatting
 --------------------------------------------------------------*/
-pre,
+// Old code css
+// pre,
+// code {
+//   color: #262626;
+//   font-size: 14px;
+//   border: 1px solid #E5E5E5;
+//   border-radius: 3px;
+//   background-color: #FBFBFB;  }
+
+// code {
+//   padding: 1px 5px; }
+
+// pre {
+//   padding: 8px 12px;
+//   overflow-x: scroll; }
+//   pre > code {
+//     border: 0;
+//     padding-right: 0;
+//     padding-left: 0; 
+//     overflow-x: scroll;}
+
+/* Styles for inline code */
 code {
   color: #262626;
   font-size: 14px;
+  background-color: #FBFBFB;
   border: 1px solid #E5E5E5;
   border-radius: 3px;
-  background-color: #FBFBFB;  }
+  padding: 1px 5px;
+  white-space: normal; /* Allow inline code to wrap naturally */
+}
 
-code {
-  padding: 1px 5px; }
-
+/* Styles for block-level code (inside <pre>) */
 pre {
   padding: 8px 12px;
-  overflow-x: auto; }
-  pre > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0; }
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  background-color: #FBFBFB;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: pre; /* Prevent wrapping inside <pre> */
+}
+
+pre > code {
+  border: 0;
+  padding: 0;
+  background-color: transparent; /* Inherit background from <pre> */
+  white-space: pre; /* Ensure code inside <pre> does not wrap */
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
 
 /*--------------------------------------------------------------
 	6.0 Syntax highlighting styles
