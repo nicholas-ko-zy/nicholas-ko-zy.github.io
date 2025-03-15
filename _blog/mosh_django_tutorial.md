@@ -2,7 +2,7 @@
 title: "Learning Django (Part 1 - Mosh's Tutorial)"
 layout: inner
 post_link: 'nicholas-ko-zy.github.io/blog/mosh_django_tutorial.html'
-publish_date: 2025-03-08
+publish_date: 2025-03-15
 ---
 
 <!-- omit in toc -->
