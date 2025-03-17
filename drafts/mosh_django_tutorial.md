@@ -217,7 +217,7 @@ Including another URLconf
 """
 ```
 
-Following the instructions above, we add the follow lines into our project's `url.py` file.
+Following the instructions above, we add the following lines into our project's `url.py` file.
 
 ```python
 # storefront/urls.py
