@@ -294,7 +294,7 @@ I think the paradox of using computational models for urban planning can be stat
 <br>
 &nbsp;
 
-<span style="color:grey">**Thanks** to Dominic Ko, Matthew Ling, Andrew Siow, Nicole Lai and Michelle Ong for reading drafts of this.</span>
+<span style="color:grey">**Thanks** to Dominic Ko, Matthew Ling, Andrew Siow, Nicole Lai and Michelle Ong for reading drafts of this. **Shoutout** to A/P Chaewon Ahn for introducing me to urban data science.</span>
 
 # Footnotes
 
