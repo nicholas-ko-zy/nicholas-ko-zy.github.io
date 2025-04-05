@@ -1,21 +1,20 @@
 ---
-title: "Learning Django (Part 1 - Mosh's Tutorial)"
+title: "Learning Django Part 1: Views, Templates and Debugging"
 layout: inner
 post_link: 'nicholas-ko-zy.github.io/blog/mosh_django_tutorial.html'
 publish_date: 2025-03-08
 ---
 
 <!-- omit in toc -->
-# Learning about Django from Mosh
+# Picking up Django from Mosh's Tutorial
 
- This post documents what I've learnt from a Django tutorial on Youtube. I'm learning Django so I can eventually build a GIS web app. Some ideas I've had for the web app are:
+ This post documents my introduction to Django - specifically, how Django converts Python code into a website. I also learnt how to use the debugger in VS Code. I used [this youtube tutorial by Mosh.](https://www.youtube.com/watch?v=rHux0gMZ3Eg) I'm learning Django so I can eventually build a GIS web app. Some ideas I've had for the web app are:
 
 * A map that displays the schedule of what's on at my favourite music venues and cinemas. I don't like visiting 5 different websites to plan my weekend. Why not have a site that puts all events in one place? (Not that my weekends are *that* free now that I'm writing this blog...) 🙄
 
 * A map to visualise solving the Capacitated Vehicle Routing Problem using real-world locations but without real-time traffic data. I'm thinking of getting the vertices and edges from OpenStreetMap.
 
-
-There are many video tutorials promising to take you from zero to hero in the shortest amount of time. I ended up landing on [this one](https://www.youtube.com/watch?v=rHux0gMZ3Eg). I thought the tutorial was easy enough to follow but it's [incomplete](#conclusion). 
+There are many video tutorials promising to take you from zero to hero in the shortest amount of time. I thought Mosh's tutorial was easy enough to follow but it is [incomplete](#conclusion). 
 
 Nonetheless, here's a summary of what I learnt from Mosh's tutorial:
 
@@ -332,6 +331,12 @@ INTERNAL_IPS = [
 ## Conclusion
 
 Ok, so Mosh's tutorial ended here pretty abruptly. I was left feeling like 5% better off than before. It goes to show that learning is never as linear as I expect. I will *not* always land on the right resources to help me make progress. However, I'm willing to press on to make my GIS web app a reality, so my next steps are to keep learning Django from other sources and also understand the theory of the Capacitated Vehicle Routing Problem (CVRP). 
+
+&nbsp;
+<br>
+&nbsp;
+
+<span style="color:grey">Edit 2025-04-05: Changed introduction.</span>
 
 <!-- omit in toc -->
 ## Footnotes
