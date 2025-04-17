@@ -1,5 +1,5 @@
 ---
-title: "Learning about Test-Driven Development in Python"
+title: "Test-Driven Development in Python"
 layout: inner
 post_link: 'nicholas-ko-zy.github.io/blog/python_tdd.html'
 publish_date: 2025-02-22

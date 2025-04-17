@@ -1,13 +1,13 @@
 ---
-title: "Learning Django Part 1: Views, Templates and Debugging"
+title: "Django Part 1: Views, Templates and Debugging"
 layout: inner
-post_link: 'nicholas-ko-zy.github.io/blog/mosh_django_tutorial.html'
+post_link: 'nicholas-ko-zy.github.io/blog/django_views_templates_debug.html'
 publish_date: 2025-03-08
 ---
 
-<!-- omit in toc -->
-# Picking up Django from Mosh's Tutorial
+# Views, Templates and Debugging
 
+<!-- omit in toc -->
  This post documents my introduction to Django - specifically, how Django converts Python code into a website. I also learnt how to use the debugger in VS Code. I used [this youtube tutorial by Mosh.](https://www.youtube.com/watch?v=rHux0gMZ3Eg) I'm learning Django so I can eventually build a GIS web app. Some ideas I've had for the web app are:
 
 * A map that displays the schedule of what's on at my favourite music venues and cinemas. I don't like visiting 5 different websites to plan my weekend. Why not have a site that puts all events in one place? (Not that my weekends are *that* free now that I'm writing this blog...) 🙄
@@ -18,13 +18,14 @@ There are many video tutorials promising to take you from zero to hero in the sh
 
 Nonetheless, here's a summary of what I learnt from Mosh's tutorial:
 
-- [Starting a Django project](#starting-a-django-project)
-- [Apps](#apps)
-  - [Creating an app called `playground`](#creating-an-app-called-playground)
-- [Views](#views)
-- [Templates](#templates)
-- [Debugging a Django app in VS Code](#debugging-a-django-app-in-vs-code)
-- [Django Debug Toolbar](#django-debug-toolbar)
+- [Views, Templates and Debugging](#views-templates-and-debugging)
+  - [Starting a Django project](#starting-a-django-project)
+  - [Apps](#apps)
+    - [Creating an app called `playground`](#creating-an-app-called-playground)
+  - [Views](#views)
+  - [Templates](#templates)
+  - [Debugging a Django app in VS Code](#debugging-a-django-app-in-vs-code)
+  - [Django Debug Toolbar](#django-debug-toolbar)
 
 ## Starting a Django project
 
