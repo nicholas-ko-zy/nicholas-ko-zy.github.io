@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+
+  <!-- KaTeX CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css"
+        integrity="sha384-zh0CIslj+VczCZtlzBcjt5ppRcsAmDnRem7ESsYwWwg3m/OaJ2l4x7YBZl9Kxxib" crossorigin="anonymous">
+
+  <!-- Screenplay Styling -->
+  <style>
+    body, article, .container, .row, .col-md-8, .col-md-offset-2 {
+      font-family: "Courier New", Courier, monospace !important;
+    }
+  
+    h1, h2, h3, h4, h5 {
+      font-family: "Courier New", Courier, monospace !important;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      border-top: 1px solid #ccc;
+      padding-top: 1rem;
+      margin-top: 2rem;
+    }
+  
+    strong {
+      display: block;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    blockquote {
+      margin: 0.5rem 0 1.5rem;
+      padding-left: 1.5rem;
+      font-style: italic;
+      border-left: 3px solid #ccc;
+    }
+  
+    p {
+      margin: 0.5rem 0 1.5rem;
+      text-indent: 2rem;
+    }
+  
+    .katex, .katex-display {
+      font-size: 1em;
+    }
+  </style>
+  
+
+  <!-- KaTeX JavaScript -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js"
+          integrity="sha384-Rma6DA2IPUwhNxmrB/7S3Tno0YY7sFu9WSYMCuulLhIqYSGZ2gKCJWIqhBWqMQfh" crossorigin="anonymous">
+  </script>
+
+  <!-- KaTeX auto-render extension with configuration -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js"
+          integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh"
+          crossorigin="anonymous"
+          onload="renderMathInElement(document.body, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\[', right: '\\]', display: true},
+              {left: '\\(', right: '\\)', display: false}
+            ],
+            throwOnError: false
+          });">
+  </script>
+</head>
+<body>
+
+  {% include header.html %}
+
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </article>
+
+  {% include footer.html %}
+
+</body>
+</html>
