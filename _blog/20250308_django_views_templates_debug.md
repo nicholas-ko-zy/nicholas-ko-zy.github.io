@@ -1,5 +1,5 @@
 ---
-title: "Django Part 1: Views, Templates and Debugging"
+title: "Django Part 1: Views & Templates"
 layout: inner
 post_link: 'nicholas-ko-zy.github.io/blog/django_views_templates_debug.html'
 publish_date: 2025-03-08

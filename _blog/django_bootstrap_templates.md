@@ -7,22 +7,24 @@ publish_date: 2025-04-11
 
 # Django Part 2: Bootstrap Templates
 
-In this post, I document how to use Django templates to make Django look nicer than just plain HTML.
+*This post uses material from Part 1 to 3 of Corey Schafer's Django tutorial. I'll only write about Part 3, since Part 1 and 2 are on setting up a Django project which I've covered that in my previous post.*
+
+In this post, I document how to use Bootstrap templates to make Django look nicer than just plain HTML.
 
 **Go from this to that**
 
 ![](/img/corey_django/before_after_templates.png)
 
-*I realised the text on right image is a bit small, but I already edited the web-app since and I don't really want to rollback my repo*
+*(I realise the text on right image is a bit small, but I already edited the web-app since I took the screenshot and I don't really want to rollback my repo.)*
 
-This post uses material from Part 1 to 3 of Corey Schafer's Django tutorial. I'll be picking off at Part 3, since Part 1 and 2 are on setting up a Django project which I've covered that in my previous post.
+## Creating a template for your app: `template.html`
+These are the steps to create a folder to store your app's templates. In this post, when I refer to 'template' file, I mean the HTML file that the view function renders. And `blog` is just an app that Corey Schafer used in his tutorial, it can be any app in your Django project.
 
-## Creating templates
-For each app, Django will look for a templates subdirectory within each Django app by default. 
+**Step 1**: Let's say your template file is called `template.html`, and your app is `blog`. Then you'll need a folder structure like this. 
 
-Step 1: Create a folder directory for your app's `template.html` file.
-Your app's template will reside in such a directory. Usually, you will need to create another subfolder within `blog/templates` named after the app name `blog`. It sounds redundant, but it's just part of the Django convention.
+You'll notice is a second `blog` subfolder. It sounds redundant, but apparently it's just part of the Django convention.
 
+`blog` example:
 ```
 django_app 
     └── blog 
@@ -31,6 +33,7 @@ django_app
                 └── templates.html
 ```
 
+Generally:
 ```
 Your project home directory
     └── Your app folder
@@ -39,47 +42,32 @@ Your project home directory
                 └── Template HTML file
 ```
 
-Step 2: Add the blog to our list of installed apps inside our project's `settings.py` file. To know what needs to go into the string, just look up the apps.py file inside your `blog` app folder.
+**Step 2:** Make sure that your view function within `blog/views.py` renders the template file instead of giving a HttpResponse.
 
-i.e. 
-```python
-# blog/apps.py
-class BlogConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'blog'
-```
-
-So we add `blog.apps.BlogConfig`, similar to an import statement.
-
-```python
-# settings.py
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'blog.apps.BlogConfig', # <- added new app
-]
-```
-
-Now, in your view function file `views.py`, change the return of your view function to render the template HTML file instead of the HttpResponse.
-
-Remarks: The first argument of render is always request. Second is the filepath to the template html file.
+Remarks: The first argument of render is always request. Second argument is the relative filepath to the template html file.
 
 ![](/img/corey_django/render_function.png)
 
-Adding dummy data into our views function, i.e. fake posts.
+
+```python
+# django_project/blog/views.py
+def home(request):
+    context = {'posts': Post.objects.all()}
+    return render(request, template_name='blog/home.html', context=context)
+```
+
+## Add mock posts to our blog app
 
 1. To do so create some dummy blog posts called posts.
-2. Use the context parameter, enter in a dictionary defined within your view function.
+   
+2. Inside your view function, define `context` as a dictionary. 
+   
 3. Change your template file, i.e. `home.html`. Write a for loop to show posts.
-Remark: Use {% raw %}{% `{% %}` %}{% endraw %} for for-loops, `{{}}` for variables in a HTML file.
+Remark: Use {% raw %}{% `{% %}` %}{% endraw %} for for-loops and {% raw %} `{{}}` {% endraw%} for variables in a HTML file.
 
 ![](/img/corey_django/templates_for_loops_vars.png)
 
-1. We can also use 'if/else' statements.
+We can also use 'if/else' statements.
 
 ```html
 {% raw %}
