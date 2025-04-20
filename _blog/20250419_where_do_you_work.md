@@ -9,7 +9,7 @@ This is an accurate portrayal of what happens when people ask me what I'm doing 
 
 ### INT. AT A SOCIAL EVENT
 
-<body> TIGHT on Nicholas, who is at this moment, undercaffinated and waiting for the inevitable question about where he works. He furrows his eyebrows and breathes deeply.
+<body> TIGHT on Nicholas, who is at this moment, undercaffeinated and waiting for the inevitable question about where he works. He furrows his eyebrows and breathes deeply.
 
 His conversation partner opens his/her mouth, Nicholas's pupils dilate. </body> 
 
