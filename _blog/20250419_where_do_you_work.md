@@ -5,7 +5,7 @@ post_link: 'nicholas-ko-zy.github.io/blog/where_I_work.html'
 publish_date: 2025-04-19
 ---
 
-This is an accurate portrayal of what happens when people ask me what I'm doing for work now. If you're reading this and we've met in person, we've probably had a similar conversation.
+This is an accurate portrayal of what happens when people ask me what I do for work now. If you're reading this and we've met in person, we've probably had a similar conversation.
 
 ### INT. AT A SOCIAL EVENT
 
