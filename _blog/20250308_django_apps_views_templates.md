@@ -1,31 +1,30 @@
 ---
-title: "Learning Django (Part 1 - Mosh's Tutorial)"
+title: "Django Part 1: Apps, Views and Templates"
 layout: inner
-post_link: 'nicholas-ko-zy.github.io/blog/mosh_django_tutorial.html'
-publish_date: 2025-03-15
+post_link: 'nicholas-ko-zy.github.io/blog/django_apps_views_templates.html'
+publish_date: 2025-03-08
 ---
 
-<!-- omit in toc -->
-# Learning about Django from Mosh
+# Apps, Views, Templates
 
- This post documents what I've learnt from a Django tutorial on Youtube. I'm learning Django so I can eventually build a GIS web app. Some ideas I've had for the web app are:
+<!-- omit in toc -->
+ This post documents my introduction to Django - specifically, how Django converts Python code into a website. I also learnt how to use the debugger in VS Code. I used [this youtube tutorial by Mosh.](https://www.youtube.com/watch?v=rHux0gMZ3Eg) I'm learning Django so I can eventually build a GIS web app. Some ideas I've had for the web app are:
 
 * A map that displays the schedule of what's on at my favourite music venues and cinemas. I don't like visiting 5 different websites to plan my weekend. Why not have a site that puts all events in one place? (Not that my weekends are *that* free now that I'm writing this blog...) 🙄
 
 * A map to visualise solving the Capacitated Vehicle Routing Problem using real-world locations but without real-time traffic data. I'm thinking of getting the vertices and edges from OpenStreetMap.
 
-
-There are many video tutorials promising to take you from zero to hero in the shortest amount of time. I ended up landing on [this one](https://www.youtube.com/watch?v=rHux0gMZ3Eg). I thought the tutorial was easy enough to follow but it's [incomplete](#conclusion). 
+There are many video tutorials promising to take you from zero to hero in the shortest amount of time. I thought Mosh's tutorial was easy enough to follow but it is [incomplete](#conclusion). 
 
 Nonetheless, here's a summary of what I learnt from Mosh's tutorial:
 
-- [Starting a Django project](#starting-a-django-project)
-- [Apps](#apps)
-  - [Creating an app called `playground`](#creating-an-app-called-playground)
-- [Views](#views)
-- [Templates](#templates)
-- [Debugging a Django app in VS Code](#debugging-a-django-app-in-vs-code)
-- [Django Debug Toolbar](#django-debug-toolbar)
+- [Apps, Views, Templates](#apps-views-templates)
+  - [Starting a Django project](#starting-a-django-project)
+  - [Apps](#apps)
+    - [Creating an app called `playground`](#creating-an-app-called-playground)
+  - [Views](#views)
+  - [Templates](#templates)
+  - [Django Debug Toolbar](#django-debug-toolbar)
 
 ## Starting a Django project
 
@@ -224,7 +223,7 @@ Following the instructions above, we add the follow lines into our project's `ur
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('playground/', include('playground.urls'))
-
+]
 ```
 
 Now, when you go to the URL, /playground/hello, you'll get the "Hello World" response.
@@ -283,27 +282,6 @@ Now we can change the HTML file to also output variables, not just hard-coded pl
 
 ![Hello Nicholas](/img/mosh_django/hello_nicholas.png)
 
-## Debugging a Django app in VS Code
-> Learning how to debug is useful, because when your project gets big, you don't want to always write print statements to see where your code is breaking.
-
-In VS Code, click the 'Run & Debug' button, then create a `launch.json` file. Add breakpoint wherever you want the program to stop running. To add a breakpoint, left click the line number you want the program to stop at and a red dot will appear. Run the debugger.
-
-You can click **'Step Over'** (shortcut F10) which will run the breakpoint line and go to the next one. In the example below, say you put a breakpoint at line 18. After 'stepping over', you'll have a local variable `x` now. 
-
-*Using 'Step Over' (F10)*
-![](/img/mosh_django/step_over_gives_local_var_x_1.png)
-
-You also have **'Step Into'**, which allows you to inspect what is going on within a function to check for bugs. The difference between 'Step Into' and 'Step Over' is that 'Step Over' will evaluate the function and return the output but 'Step Into' will go inside the function.
-
-*Using 'Step Into' (F11)*
-![](/img/mosh_django/step_into.gif)
-
-You can also **'Step Out'** which returns you back to the line of the function call you were at previously. 
-
-Tip 1: Remember to remove your breakpoints after you are done debugging.
-
-Tip 2: You can use CTRL + F5 to run the project instead of running the `python manage.py runserver` command in your terminal.
-
 ## Django Debug Toolbar
 
 I haven't gone too deep into how to use the debug toolbar efficiently. For now, I'm just recording the steps to install it and add it to my Django project.
@@ -332,6 +310,12 @@ INTERNAL_IPS = [
 ## Conclusion
 
 Ok, so Mosh's tutorial ended here pretty abruptly. I was left feeling like 5% better off than before. It goes to show that learning is never as linear as I expect. I will *not* always land on the right resources to help me make progress. However, I'm willing to press on to make my GIS web app a reality, so my next steps are to keep learning Django from other sources and also understand the theory of the Capacitated Vehicle Routing Problem (CVRP). 
+
+&nbsp;
+<br>
+&nbsp;
+
+<span style="color:grey">Edit 2025-04-05: Changed introduction.</span>
 
 <!-- omit in toc -->
 ## Footnotes
