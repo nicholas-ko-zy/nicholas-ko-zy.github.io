@@ -1,7 +1,7 @@
 ---
 title: "Django Part 2: Template Inheritance and URL Tags"
 layout: inner
-post_link: 'nicholas-ko-zy.github.io/blog/django_templates.html'
+post_link: 'nicholas-ko-zy.github.io/blog/django_template_inheritance_url_tags.html'
 publish_date: 2025-04-26
 ---
 
