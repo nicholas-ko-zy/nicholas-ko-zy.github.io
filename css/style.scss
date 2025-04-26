@@ -390,6 +390,21 @@ pre > code {
   overflow-x: auto; /* Enable horizontal scrolling */
 }
 
+/* Styles for side-by-side code blocks */
+.side-by-side-code {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+  align-items: stretch; /* Make the child divs the same height */
+}
+
+.side-by-side-code > pre {
+  flex-grow: 1;
+  border: 1px solid #eeeeff; /* Apply the border here */
+  border-radius: 3px;      /* Apply the border-radius here */
+  background-color: #eeeeff; /* Apply the background color here */
+  padding: 0;             /* Remove padding from the <pre> element */
+  margin: 0;              /* Explicitly set margin to zero within this context */
+}
 
 /*--------------------------------------------------------------
 	6.0 Syntax highlighting styles
@@ -467,3 +482,19 @@ pre > code {
     .highlight .vg { color: #000000 } /* Name.Variable.Global */
     .highlight .vi { color: #000000 } /* Name.Variable.Instance */
     .highlight .il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
+
+/*Side-by-Side Code Blocks*/
+.side-by-side-code {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.side-by-side-code > div {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f9f9f9;
+  font-family: monospace;
+  white-space: pre; /* Preserve whitespace for horizontal scrolling */
+  overflow-x: auto; /* Enable horizontal scroll when needed */
+}

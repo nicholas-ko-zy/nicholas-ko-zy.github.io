@@ -1,11 +1,11 @@
 ---
-title: "Django Part 1: Views & Templates"
+title: "Django Part 1: Apps, Views and Templates"
 layout: inner
-post_link: 'nicholas-ko-zy.github.io/blog/django_views_templates_debug.html'
+post_link: 'nicholas-ko-zy.github.io/blog/django_apps_views_templates.html'
 publish_date: 2025-03-08
 ---
 
-# Views, Templates and Debugging
+# Apps, Views, Templates
 
 <!-- omit in toc -->
  This post documents my introduction to Django - specifically, how Django converts Python code into a website. I also learnt how to use the debugger in VS Code. I used [this youtube tutorial by Mosh.](https://www.youtube.com/watch?v=rHux0gMZ3Eg) I'm learning Django so I can eventually build a GIS web app. Some ideas I've had for the web app are:
@@ -18,13 +18,12 @@ There are many video tutorials promising to take you from zero to hero in the sh
 
 Nonetheless, here's a summary of what I learnt from Mosh's tutorial:
 
-- [Views, Templates and Debugging](#views-templates-and-debugging)
+- [Apps, Views, Templates](#apps-views-templates)
   - [Starting a Django project](#starting-a-django-project)
   - [Apps](#apps)
     - [Creating an app called `playground`](#creating-an-app-called-playground)
   - [Views](#views)
   - [Templates](#templates)
-  - [Debugging a Django app in VS Code](#debugging-a-django-app-in-vs-code)
   - [Django Debug Toolbar](#django-debug-toolbar)
 
 ## Starting a Django project
@@ -282,27 +281,6 @@ Now we can change the HTML file to also output variables, not just hard-coded pl
 
 
 ![Hello Nicholas](/img/mosh_django/hello_nicholas.png)
-
-## Debugging a Django app in VS Code
-> Learning how to debug is useful, because when your project gets big, you don't want to always write print statements to see where your code is breaking.
-
-In VS Code, click the 'Run & Debug' button, then create a `launch.json` file. Add breakpoint wherever you want the program to stop running. To add a breakpoint, left click the line number you want the program to stop at and a red dot will appear. Run the debugger.
-
-You can click **'Step Over'** (shortcut F10) which will run the breakpoint line and go to the next one. In the example below, say you put a breakpoint at line 18. After 'stepping over', you'll have a local variable `x` now. 
-
-*Using 'Step Over' (F10)*
-![](/img/mosh_django/step_over_gives_local_var_x_1.png)
-
-You also have **'Step Into'**, which allows you to inspect what is going on within a function to check for bugs. The difference between 'Step Into' and 'Step Over' is that 'Step Over' will evaluate the function and return the output but 'Step Into' will go inside the function.
-
-*Using 'Step Into' (F11)*
-![](/img/mosh_django/step_into.gif)
-
-You can also **'Step Out'** which returns you back to the line of the function call you were at previously. 
-
-Tip 1: Remember to remove your breakpoints after you are done debugging.
-
-Tip 2: You can use CTRL + F5 to run the project instead of running the `python manage.py runserver` command in your terminal.
 
 ## Django Debug Toolbar
 
