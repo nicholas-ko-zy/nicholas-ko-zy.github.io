@@ -183,7 +183,7 @@ Note to self: Check out ways of automating mocks in `pytest-mock` and `monkey-pa
 ```
 pytest test/test_ner_client.py::TestNerClient::test_get_ents_returns_dictionary_given_empty_string_causes_empty_spacy_doc_ents 
 ```
-^ Hint: You can use tab completion along the way. Remember to use the double-colons `::` after the `.py` file. First set of `::` specifies the test class name and the second one to specifies the test name.
+^ Hint: You can use tab completion along the way. Remember to use the double-colons `::` after the `.py` file. First set of `::` specifies the test class name and the second specifies the test name.
 
 ## What I learnt: Another way to run a single test.
 
