@@ -32,7 +32,11 @@ plugins:
 collections:
     blog:
       output: true
-  
+
+spaceship:
+  mathjax:
+    autoNumber: false
+
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
