@@ -62,6 +62,7 @@ At the waterfall step, the model distributes housing across the city based on th
 <u> Equation 8 minimises commute time.</u>
 
 $$
+\large
 \begin{align}
 N_j &= g \sum^n_{i=1} \frac{E_i}{T_{ij}} \tag{8} \\ 
 \end{align}
@@ -82,6 +83,7 @@ Equation (8) tells us the population in each tract will increase if there are mo
 <u> Equation 11 suppresses housing density to prevent overcrowding in the tracts.</u>
 
 $$
+\large
 \begin{align}
 \frac{N_j}{A^H_j} &\leq Z^H_j\tag{11} \\
 \end{align} 
@@ -138,6 +140,7 @@ Unspecified functions and coefficients: $a,b,c,d,e,f,g$
 **Area**
 
 $$
+\large
 \begin{align}
   A_j &= A_j^U + A_j^B + A_j^R +A_j^H \\ \tag{1}
 \end{align}
@@ -148,36 +151,13 @@ $$
 **Employment**
 
 $$
+\large
 \begin{align}
   E^k &= a^k N \tag{2} \\
-  E^k &= b^k \left[\sum_{k=1}^n \left(\frac{c^k N_i}{T_{ij}^k} + d^k E_j\right)\right] \tag{3} \\
-\end{align}
-$$
-
-$$
-\begin{align}
-
-\end{align}
-$$
-
-
-$$
-\begin{align}
-  E^k &= \sum_{j=1}^n E^k_j \tag{4} \\
-\end{align}
-$$
-
-
-$$
-\begin{align}
-  E_j &= E_j^B + \sum_{k=1}^m E^k_j \tag{5} \\
-\end{align}
-$$
-
-
-$$
-\begin{align}
-  A^R_j &= \sum_{k=1}^m e^k E_j^k \tag{6}
+  E^k &= b^k \left[\sum^n_{k=1} \left(\frac{c^kN_i}{T_{ij}^k} + d^k E_j\right)\right] \tag{3}\\
+  E^k  &= \sum^n_{j=1} E^k_j \tag{4} \\
+  E_j &= E_j^B + \sum^m_{k=1} E^k_j \tag{5} \\
+  A^R_j &= \sum^m_{k=1} e^k E_j^k \tag{6}
 \end{align}
 $$
 
@@ -194,19 +174,10 @@ $$
 **Housing**
 
 $$
+\large
 \begin{align}
   N &= f \sum^n_{j=1} E_j \tag{7}\\
-\end{align}
-$$
-
-$$
-\begin{align}
 N_j &= g \sum^n_{i=1} \frac{E_i}{T_{ij}} \tag{8} \\ 
-\end{align}
-$$
-
-$$
-\begin{align}
 N &= \sum^n_{j=1} N_j \tag{9}\\
 \end{align}
 $$
@@ -222,18 +193,7 @@ $$
 $$
 \begin{align}
 E_j^k &\geq Z^k \hspace{0.5cm} \text{, or else $E_j^k=0$} \tag{10} \\
-\end{align} 
-$$
-
-$$
-\begin{align}
 N_j &\leq Z^H_jA^H_j \tag{11} \\
-\end{align} 
-$$
-
-
-$$
-\begin{align}
 A^R_j &\leq A_j - A^U_j -A^B_j \tag{12}
 \end{align} 
 $$
