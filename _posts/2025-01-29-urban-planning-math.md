@@ -191,6 +191,7 @@ $$
 **Constraints**
 
 $$
+\large
 \begin{align}
 E_j^k &\geq Z^k \hspace{0.5cm} \text{, or else $E_j^k=0$} \tag{10} \\
 N_j &\leq Z^H_jA^H_j \tag{11} \\
