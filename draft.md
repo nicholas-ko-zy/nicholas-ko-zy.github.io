@@ -33,12 +33,32 @@ Depending on which category your route falls into, I have a slightly different i
 
 From Google Street View and Google Map's routes, I can see that Delft performs better in separation for all three categories that your route falls into.
 
-One, when travelling along the tract perimeter is made easier in Delft because the sidewalks are wider. Two, when travelling between tracts in Delft, the intersections put more distance between active mobility users and cars as compared to Singapore’s intersections. In Singapore, during peak hours, cyclists tend to cycle out of the dotted lines to avoid pedestrians but are in danger of getting hit by oncoming traffic. Another point to add for travelling between tracts is that there are dedicated cycling routes that go above or underground from the road level. Admittedly, this would be more difficult to do in Singapore because it would be expensive to drill underground to make an underpass for every intersection in every neighbourhood, but it works well separating cyclists and pedestrians from the street level. A good example of how moving underground is better than driving in Singapore is the underground network in Orchard MRT station. And finally, travelling within tracts is would be easier if there were more paved roads at the same elevation. I am not sure why Singapore’s HDBs are elevated, but the way to access the HDB from the street level is via the roads which typically bring you to a gantry or taking the stairs, which bikes cannot go. A better form of separation to move people within tracts is to have entrances and exits with slopes for bicycles which reduces the elevations caused by curbs, drains etc. The Land Transport Authority has introduced what they call ‘bicycle wheeling ramps’ to move up and down staircases connecting HDBs to the street. I’ve used them once while crossing an overhead bridge, and although they’re better than carrying my bike, they’re still awkward to use and might block other people who’re walking in the opposite direction. Just imagine yourself pushing up a bike during peak travel hours like brunch time on a Saturday morning. On the other hand, the movements within tracts in Delft are more seamless because of the same elevation and clear paths to go through the tracts. (Compare Molenbuurt with typical HDB tract)
+One, when travelling along the tract perimeter is made easier in Delft because the sidewalks are wider. 
 
 
+Two, when travelling between tracts in Delft, the intersections put more distance between active mobility users and cars as compared to Singapore’s intersections. In Singapore, during peak hours, cyclists tend to cycle out of the dotted lines to avoid pedestrians but are in danger of getting hit by oncoming traffic. 
+
+<!-- 2. Intersection Delft -->
 <div style="display: flex; width: 100%; height: 100vh; overflow: hidden;">
-    <iframe src="/img/blog/20260523_SeparationInPlanning/html/sbs_delft.html" 
-            style="flex: 1; width: 100%; height: 100%; border: none;">
+    <iframe src="/img/blog/20260523_SeparationInPlanning/html/2_intersections/2_NTH_left_satellite.html" 
+            style="flex: 1; width: 0; height: 100%; border: none;">
     </iframe>
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!4v1782564433893!6m8!1m7!1sHzmz95aOebFccwFWfKRg-w!2m2!1d51.9891144088233!2d4.358578917553602!3f210.3115105428027!4f-13.472752222841336!5f0.7820865974627469"
+    width="600"
+    height="450"
+    style="flex: 1; width: 0; height: 100%; border: none;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
 </div>
+
+<!-- 2. Intersection Singapore -->
+
+Another point to add for travelling between tracts is that there are dedicated cycling routes that go above or underground from the road level. Admittedly, this would be more difficult to do in Singapore because it would be expensive to drill underground to make an underpass for every intersection in every neighbourhood, but it works well separating cyclists and pedestrians from the street level. A good example of how moving underground is better than driving in Singapore is the underground network in Orchard MRT station.
+
+And finally, travelling within tracts is would be easier if there were more paved roads at the same elevation. I am not sure why Singapore’s HDBs are elevated, but the way to access the HDB from the street level is via the roads which typically bring you to a gantry or taking the stairs, which bikes cannot go. A better form of separation to move people within tracts is to have entrances and exits with slopes for bicycles which reduces the elevations caused by curbs, drains etc. The Land Transport Authority has introduced what they call ‘bicycle wheeling ramps’ to move up and down staircases connecting HDBs to the street. I’ve used them once while crossing an overhead bridge, and although they’re better than carrying my bike, they’re still awkward to use and might block other people who’re walking in the opposite direction. Just imagine yourself pushing up a bike during peak travel hours like brunch time on a Saturday morning. On the other hand, the movements within tracts in Delft are more seamless because of the same elevation and clear paths to go through the tracts. (Compare Molenbuurt with typical HDB tract)
+
+
 
