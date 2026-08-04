@@ -498,3 +498,38 @@ pre > code {
   white-space: pre; /* Preserve whitespace for horizontal scrolling */
   overflow-x: auto; /* Enable horizontal scroll when needed */
 }
+
+/*--------------------------------------------------------------
+  7.0 Fixed Navbar & Mobile Layout Fixes
+--------------------------------------------------------------*/
+body {
+  padding-top: 50px; /* Shifts body down so content clears the fixed header */
+}
+
+/* Ensure article top margin doesn't fight the body padding */
+article {
+  margin-top: 1em !important;
+}
+
+/* 2. Responsive adjustments specifically for mobile phones */
+@media screen and (max-width: 480px) and (pointer: coarse) {
+  body {
+    padding-top: 60px; /* Standard height for collapsed Bootstrap navbar */
+  }
+
+  article {
+    margin: 1em 0 2em 0 !important;
+  }
+
+  /* Prevent text crowding on mobile */
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  /* Keep code blocks scrollable without stretching the page */
+  pre, .side-by-side-code {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
