@@ -14,7 +14,7 @@ Take driving on highways and commuting on trains as examples. Highways separate 
 
 So what about seperation for pedestrian or cyclist infrastructure in Singapore? With the exception of park connectors (PCN) and dedicated cycling paths, the rest of the time, pedestrians and cyclists share the same sidewalk. Mixing pedestrians and cyclists brings people together who are travelling at different speeds and in opposite directions. The greater the difference in speed, the more control required to avoid collisions and the less seamless travelling feels. Not to mention, waiting at traffic intersections can feel painfully long under Singapore's high temperatures and humidity.
 
-<div style="display: flex; height: 400px; background-size: contain;">
+<div style="display: flex; gap: 10px; width: 100%; aspect-ratio: 16 / 9; max-height: 400px;">
     <img src="/img/blog/20260523_SeparationInPlanning/highway.jpg" alt="Highway" style="flex: 1.5; width: 0; height: 100%; object-fit: cover;">
     <img src="/img/blog/20260523_SeparationInPlanning/bike_lane.jpg" alt="Bike Lane" style="flex: 1; width: 0; height: 100%; object-fit: cover;">
 </div>
@@ -32,7 +32,7 @@ Before I go into how I think more separation can be achieved, I wanted to introd
    
 3. Travelling within tracts.
 
-<div style="display: flex; height: 400px; background-size: contain; gap: 16px">
+<div style="display: flex; gap: 10px; width: 100%; aspect-ratio: 16 / 9; max-height: 400px;">
     <img src="/img/blog/20260523_SeparationInPlanning/moving_around_within_tracts.png" alt="Moving Around & Within a Tract" style="flex: 1; width: 0; height: 100%; object-fit: cover;">
     <img src="/img/blog/20260523_SeparationInPlanning/moving_across_tracts.png" alt="Moving Across Tracts" style="flex: 1; width: 0; height: 100%; object-fit: cover;">
 </div>
