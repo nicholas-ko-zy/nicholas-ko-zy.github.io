@@ -88,7 +88,7 @@ Two, when travelling between tracts in Delft, the intersections put more distanc
     ></iframe>
 </div>
 
-<p><em>(Above: A four-way intersection with more separation between cars and pedestrians in Delft, Netherlands, Below: A four-way intersection in Admiralty, Singapore)</em></p>
+<p><em>(Above: A four-way stop with more separation between cars and pedestrians in Delft, Netherlands, Below: A four-way stop in Admiralty, Singapore)</em></p>
 
 <!-- 2. Intersection Singapore -->
 <div style="display: flex; width: 100%; height: 40vh; overflow: hidden;">

@@ -43,7 +43,7 @@
         position: absolute; 
         bottom: 0; 
         right: 0; 
-        background: rgba(255, 255, 255, 0.8); 
+        background: rgba(255, 255, 255, 0.85); 
         padding: clamp(2px, 0.6vw, 4px) clamp(4px, 1vw, 8px); 
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
         font-size: clamp(8px, 1vw, 11px); 
@@ -52,7 +52,10 @@
         border-top-left-radius: 4px;
         box-shadow: 0 0 4px rgba(0,0,0,0.15);
         pointer-events: auto;
-        white-space: nowrap;
+        white-space: normal;
+        word-break: break-word;
+        max-width: 95vw;
+        text-align: right;
     ">
         Esri, Maxar, Earthstar Geographics, and the GIS User Community
     </div>
@@ -507495,7 +507498,7 @@
         255,
         0
       ],
-      "id": "55783e13-dd4c-4c29-b9de-932327c0c1cc"
+      "id": "ed1577d3-e01e-4a79-bb80-8322e91462f8"
     },
     {
       "@@type": "GeoJsonLayer",
@@ -636795,7 +636798,7 @@
         0,
         0
       ],
-      "id": "ce67ed97-70c5-4d80-9277-adc8a646a323"
+      "id": "f28b41ae-e56f-43ad-87d5-7b1bd0848689"
     }
   ],
   "mapProvider": "mapbox",
@@ -636830,12 +636833,12 @@
   "widgets": [
     {
       "@@type": "ZoomWidget",
-      "id": "d2a0402e-200c-4e17-8dc7-1c5fbbcc9ee8",
+      "id": "4583e72f-c8cb-4eea-86a5-e188f4fc57e0",
       "placement": "top-right"
     },
     {
       "@@type": "ResetViewWidget",
-      "id": "d18ed156-e8ba-4a9f-a328-7c549f4d1dc4",
+      "id": "f3dfe3ed-9611-48f6-b693-a1e88955016e",
       "label": "Reset View",
       "placement": "top-right"
     },
@@ -636847,7 +636850,7 @@
         "text": "4-way stop"
       },
       "defaultIsOpen": true,
-      "id": "065fd676-7e13-472e-9aa8-933f0fe98f85",
+      "id": "aebc8621-4271-4ba7-95ff-006f4ac68d59",
       "marker": {
         "html": "<div style=\"font-size:28px;transform:translate(-50%,-50%);\">\ud83d\udea6</div>"
       },
