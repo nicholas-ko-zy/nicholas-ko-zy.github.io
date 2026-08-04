@@ -88,7 +88,7 @@ Two, when travelling between tracts in Delft, the intersections put more distanc
     ></iframe>
 </div>
 
-<p><em>(Above: A four-way intersection in Delft, Netherlands, Below: A four-way intersection in Admiralty, Singapore)</em></p>
+<p><em>(Above: A four-way intersection with more separation between cars and pedestrians in Delft, Netherlands, Below: A four-way intersection in Admiralty, Singapore)</em></p>
 
 <!-- 2. Intersection Singapore -->
 <div style="display: flex; width: 100%; height: 40vh; overflow: hidden;">
@@ -105,7 +105,7 @@ Two, when travelling between tracts in Delft, the intersections put more distanc
     ></iframe>
 </div>
 
-
+\\
 In Singapore, during peak hours, cyclists tend to cycle out of the dotted lines to avoid pedestrians but are in danger of getting hit by oncoming traffic. 
 
 Furthermore, greater separation, when travelling between tracts, can be achieved if there are dedicated cycling routes that go above or underground from the road level. Admittedly, this would be more difficult to do in Singapore because it would be expensive to drill underground to make an underpass for every intersection in every neighbourhood, but it works well separating cyclists and pedestrians from the street level. A good example of how moving underground is better than driving in Singapore is the underground network in Orchard MRT station that connects to all the malls.

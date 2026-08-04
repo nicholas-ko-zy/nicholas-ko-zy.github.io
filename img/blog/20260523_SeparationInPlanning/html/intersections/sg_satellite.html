@@ -44,47 +44,48 @@
         bottom: 0; 
         right: 0; 
         background: rgba(255, 255, 255, 0.8); 
-        padding: 4px 8px; 
+        padding: clamp(2px, 0.6vw, 4px) clamp(4px, 1vw, 8px); 
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
-        font-size: 11px; 
+        font-size: clamp(8px, 1vw, 11px); 
         color: #333; 
         z-index: 99999;
         border-top-left-radius: 4px;
         box-shadow: 0 0 4px rgba(0,0,0,0.15);
         pointer-events: auto;
+        white-space: nowrap;
     ">
         Esri, Maxar, Earthstar Geographics, and the GIS User Community
     </div>
     
-    <!-- Floating Network Legend Layer -->
+    <!-- Floating Responsive Network Legend Layer -->
     <div style="
         position: absolute;
-        bottom: 30px;
-        right: 20px;
+        bottom: clamp(28px, 5vw, 42px); /* Pushes legend above the ~22px tall attribution bar */
+        right: clamp(8px, 2vw, 16px);
         background-color: rgba(255, 255, 255, 0.95);
-        padding: 12px 16px;
+        padding: clamp(6px, 1.5vw, 12px) clamp(8px, 2vw, 16px);
         border-radius: 6px;
         box-shadow: 0 2px 10px rgba(0,0,0,0.3);
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        font-size: 13px;
+        font-size: clamp(10px, 1.2vw, 13px);
         color: #333;
         z-index: 99999;
         pointer-events: auto;
-        min-width: 150px;
+        width: clamp(100px, 20vw, 160px);
     ">
-        <div style="font-weight: bold; margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px;">
+        <div style="font-weight: bold; margin-bottom: clamp(4px, 1vw, 8px); border-bottom: 1px solid #eee; padding-bottom: clamp(2px, 0.5vw, 4px);">
             Network Layers
         </div>
         
         <!-- Red Line Item -->
-        <div style="display: flex; align-items: center; margin-bottom: 6px;">
-            <div style="width: 24px; height: 4px; background-color: #FF0000; margin-right: 10px; border-radius: 2px;"></div>
+        <div style="display: flex; align-items: center; margin-bottom: clamp(3px, 0.8vw, 6px);">
+            <div style="width: clamp(14px, 2.5vw, 24px); height: clamp(2px, 0.4vw, 4px); background-color: #FF0000; margin-right: clamp(6px, 1vw, 10px); border-radius: 2px; flex-shrink: 0;"></div>
             <span>Roads</span>
         </div>
         
         <!-- Green Line Item -->
         <div style="display: flex; align-items: center;">
-            <div style="width: 24px; height: 4px; background-color: #00FF00; margin-right: 10px; border-radius: 2px;"></div>
+            <div style="width: clamp(14px, 2.5vw, 24px); height: clamp(2px, 0.4vw, 4px); background-color: #00FF00; margin-right: clamp(6px, 1vw, 10px); border-radius: 2px; flex-shrink: 0;"></div>
             <span>Pedestrian/Bike Paths</span>
         </div>
     </div>
@@ -507494,7 +507495,7 @@
         255,
         0
       ],
-      "id": "b4488866-58f2-4724-8b4e-42947e40c0fe"
+      "id": "55783e13-dd4c-4c29-b9de-932327c0c1cc"
     },
     {
       "@@type": "GeoJsonLayer",
@@ -636794,7 +636795,7 @@
         0,
         0
       ],
-      "id": "2efc3b5a-e230-4feb-93b1-5c96e2f42cfd"
+      "id": "ce67ed97-70c5-4d80-9277-adc8a646a323"
     }
   ],
   "mapProvider": "mapbox",
@@ -636829,12 +636830,12 @@
   "widgets": [
     {
       "@@type": "ZoomWidget",
-      "id": "5208dee6-96ae-496e-b525-78b95c3965d0",
+      "id": "d2a0402e-200c-4e17-8dc7-1c5fbbcc9ee8",
       "placement": "top-right"
     },
     {
       "@@type": "ResetViewWidget",
-      "id": "3a4a90f2-f1cc-49f8-829f-7968fdabdcf9",
+      "id": "d18ed156-e8ba-4a9f-a328-7c549f4d1dc4",
       "label": "Reset View",
       "placement": "top-right"
     },
@@ -636846,7 +636847,7 @@
         "text": "4-way stop"
       },
       "defaultIsOpen": true,
-      "id": "ce64b39e-374a-49c7-aeef-2bd384ebf780",
+      "id": "065fd676-7e13-472e-9aa8-933f0fe98f85",
       "marker": {
         "html": "<div style=\"font-size:28px;transform:translate(-50%,-50%);\">\ud83d\udea6</div>"
       },
