@@ -45,23 +45,23 @@ For ‘**travelling between tracts**’, I'm referring to walking or cycling acr
 
 For '**travelling within tracts**', the roads go into these areas are narrower and lead to more dead ends. So, separation is *typically* not an issue since cars that turn into these minor roads would drive at slower speeds to avoid collisions. I know there exist drivers that speed no matter where they are, but in my experience, they are the minority. If you take HDB estates as examples, drivers typically slow down after they go pass the gantry. Pedestrians and cyclists are usually more comfortable cycling on roads within housing estates than on the main road. In the Netherlands, there is a concept of *woonerf*, translated to mean ‘residential grounds’. *Woonerf* streets do not have dedicated cycling paths or pedestrian paths but they do have traffic calming measures like signs that tell drivers they are entering a shared space, making it clear that they are guests in a shared street. 
 
-Let's look at the first category, **travelling along the tract perimeter**. Increasing the width of sidewalks and cycling paths encourages greater separation while travelling along the tract perimeter. Today, Singapore's sidewalks and cycling paths are only wide enough to fit two people going in the same direction or one person each going in the opposite direction. Based on the design guide in Singapore, sidewalks without cycling paths have widths ranging from 1.5m to 1.8m. Cycling paths add an additional 2.0m of space. 
-
-[Insert screenshot from design guide]
+Let's look at the first category, **travelling along the tract perimeter**. Increasing the width of sidewalks and cycling paths encourages greater separation while travelling along the tract perimeter. Today, Singapore's sidewalks and cycling paths are only wide enough to fit two people going in the same direction or one person each going in the opposite direction. Based on the design guide in Singapore, sidewalks without cycling paths have widths ranging from 1.5m to 1.5m. Cycling paths add an additional 2.0m of space. 
 
 In the best-case scenario, pedestrians and cyclists have their own dedicated paths but since it is single direction, people are unable to have conversations side-by-side because of they would block traffic either behind them or coming towards them - a problem that I illustrated at the beginning of this blog post. In the worst-case scenario, both pedestrians and cyclists going in opposite directions are forced to share a 1.5m standalone sidewalk.
 
 Increase path widths to separate pedestrians and cyclists and both directions of travel for each mode respectively would make walking and cycling more seamless.
 
-[Insert screenshot of guide]
+![](/img/blog/20260523_SeparationInPlanning/sidewalk_cyclepath_design_guide.png)
+
+*(Above: Screenshot of the sidewalk and cycle path widths from the Singapore "[Walking and Cycling Design Guide](https://www.lta.gov.sg/content/dam/ltagov/industry_innovations/industry_matters/development_construction_resources/pdf/ActiveMobilityProposalsandRequirements/Walking%20Cycling%20Design%20Guide%20SG.pdf)", published in 2018.)*
 
 {:.table}
 | Path | Width                             |
 |-----------------------------|-------------------------------------|
-|Single Lane Sidewalk| $1.8\text{m}$|
+|Single Lane Sidewalk| $1.5\text{m}$|
 |Single Lane Cycling Path|$2.0\text{m}$|
-| Proposed <u>Low</u> Traffic Path for Bike & Pedestrian (Single)                         | $1.8\text{m} + 2.0\text{m} = 3.8\text{m}$ |
-| Proposed <u>High</u> Traffic Path for Bike & Pedestrian (Bidirectional)                     | $2 \times (1.8\text{m} + 2.0\text{m}) = 7.6\text{m}$ |
+| Proposed <u>Low</u> Traffic Path for Bike & Pedestrian (Single)                         | $1.5\text{m} + 2.0\text{m} = 3.5\text{m}$ |
+| Proposed <u>High</u> Traffic Path for Bike & Pedestrian (Bidirectional)                     | $2 \times (1.5\text{m} + 2.0\text{m}) = 7\text{m}$ |
 {:.table}
 
 
@@ -112,7 +112,7 @@ Furthermore, greater separation, when travelling between tracts, can be achieved
 
 And finally, **travelling within tracts** is would be easier if there are more paths in and out of the tract. Back to the topic of HDB estates, I am not sure why Singapore’s HDBs estates elevated, but the way to access the HDB as a cyclist is limited because stairs are immediately ruled out and the slopes make too many turns. A better form of separation to move people within tracts is to have entrances and exits with slopes for bicycles which reduces the microelevations differences caused by curbs, drains etc. Other than this point, I don't really have much else to point out. 
 
-[Insert sbs picture of hand estates entering / Molenbuurt, Delft]
+[Insert sbs picture of hdb estates entering / Molenbuurt, Delft]
 
 So there you have it, as I wondered at what the general principle was for walking and cycling seamlessly, I've come to realised that separation is key.
 
