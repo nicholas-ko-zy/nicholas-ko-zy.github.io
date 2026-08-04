@@ -1,0 +1,11 @@
+/* Mobile-only scaling (screens 768px wide or smaller) */
+@media screen and (max-width: 480px) and (pointer: coarse) {
+  article {
+    /* CSS Zoom scales down text, images, and nested elements proportionally */
+    zoom: 0.5;
+  }
+}
+
+.katex, .katex-display {
+    font-size: 1em;  
+}

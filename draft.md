@@ -112,6 +112,8 @@ Furthermore, greater separation, when travelling between tracts, can be achieved
 
 And finally, **travelling within tracts** is would be easier if there are more paths in and out of the tract. Back to the topic of HDB estates, I am not sure why Singapore’s HDBs estates elevated, but the way to access the HDB as a cyclist is limited because stairs are immediately ruled out and the slopes make too many turns. A better form of separation to move people within tracts is to have entrances and exits with slopes for bicycles which reduces the microelevations differences caused by curbs, drains etc. Other than this point, I don't really have much else to point out. 
 
+[Insert sbs picture of hand estates entering / Molenbuurt, Delft]
+
 So there you have it, as I wondered at what the general principle was for walking and cycling seamlessly, I've come to realised that separation is key.
 
 
