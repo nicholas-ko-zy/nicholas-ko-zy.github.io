@@ -18,7 +18,7 @@ permalink: /resume/
 
 
 <div style="display: flex; justify-content: center;">
-	<img src="/img/resume/nicholas_resume.jpg" alt="Updated resume as of 29th Jan 2025" style="max-width: 2480; max-height: 3508px;">
+	<img src="/img/resume/nicholas_resume.png" alt="Updated resume as of 29th Jan 2025" style="max-width: 2480; max-height: 3508px;">
 </div>
 
 
