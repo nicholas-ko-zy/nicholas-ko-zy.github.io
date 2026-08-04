@@ -3,6 +3,11 @@
   article {
     /* CSS Zoom scales down text, images, and nested elements proportionally */
     zoom: 0.8;
+  
+  margin-top: 20px;       
+  clear: both;            
+  position: relative;     
+  z-index: 1;
   }
 }
 
