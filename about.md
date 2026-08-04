@@ -5,9 +5,9 @@ permalink: /about/
 ---
 # About Nicholas Ko
 
-I majored in mathematical, computational and statistical sciences at [Yale-NUS College](https://www.yale-nus.edu.sg/about-yale-nus/). I am currently employed in Singapore. Previously, I <u>interned at Adatos.AI</u>, where I worked on satellite image analysis. I am also a former <u> research assistant at Yale-NUS College</u> under Associate Professor Michiel van Breugel. I am grateful to all who taught me in each of these places.
+I majored in mathematical, computational and statistical sciences at [Yale-NUS College](https://www.yale-nus.edu.sg/about-yale-nus/). My work and academic experience reflects my varied interests in **mathematics, optimisation, data science and urban planning**. My first job out of undergrad was as an Operations Research Analyst for a National Lab in Singapore, [DSO National Laboratories](https://en.wikipedia.org/wiki/DSO_National_Laboratories). I was also an <u>intern at Adatos.AI</u>, a start-up, where I worked on satellite image analysis. I am grateful to all who taught me in each of these places.
 
-Right now, I'm interested in operations research (OR) because I think there's rigourous math and useful modelling techniques there. Another reason that drew me to OR is because the field has managed to stay out of the limelight of popular media for now. I am a bit of a contrarian.
+Right now, I'm interested in computational urban planning.
 
 On the personal front, I have been a jazz enthusiast ever since I heard Bill Evan's "Portrait in Jazz" album in 2014. My favourite album is "Stan Getz & Bill Evans", favourite track of the album is "Grandfather's Waltz".
 
