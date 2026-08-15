@@ -1,18 +1,18 @@
 ---
 layout: inner
-title: Separation In Transportation Planning
+title: Separation Between Modes of Transport in Singapore
 permalink: /draft/
 ---
 
-# Separation In Transportation Planning
+# Separation Between Modes of Transport in Singapore
 
-Lately, I've been thinking about how we can make walking and cycling more seamless in Singapore. As a pedestrian, I’ve always found Singapore’s sidewalks to be too narrow to comfortably hold a conversation next to someone. As soon as I start walking, it won't be long until I find myself blocking either someone coming in the opposite direction or someone trying to overtake me from behind. If the sidewalks are really busy, I just end up speaking with my conversation partner to the front or back of me. The same goes for cycling. It's hard to cycle side-by-side with someone and I can only manage to pass oncoming cyclists or pedestrians with an inch of space between us. Many times as a pedestrian or cyclist, I've also had to moved off the path and onto the grass, to make way for a wheelchair or a pram. I recently came across the concept of **'separation'** in Susan Handy's book, [*Shifting Gears*](https://share.google/V3B54ZdijraPsAFGl), which made me realise that we need more separation between pedestrians and cyclists, to make walking and cycling more seamless in Singapore.
+Although you could safely walk and cycle almost anywhere in Singapore, there's still room for improvement. As a pedestrian, the sidewalks can be too narrow to comfortably hold a conversation next to someone, especially when it's a busy area. When I'm chatting and walking with a friend, I've often had to give way to someone coming in the opposite direction or someone trying to overtake me from behind. I usually just end up speaking with my friend to the front or back of me. It's also hard to cycle and chat with a friend side-by-side for the same reasons. Sometimes if there's a pram or wheelchair, I've moved off the sidewalk onto the grass just to give them more space. As I thought of what Singapore could do to make walking and cycling more seamless, I found the answer in a book I recently read. I came across the concept of **'separation'** in Susan Handy's book, [*Shifting Gears*](https://share.google/V3B54ZdijraPsAFGl). I realised that Singapore needed more separation between pedestrians, cyclists and cars to make non-motorised travel more seamless.
 
-What is separation? Separation is all about having dedicated space for (i) different modes of travel and (ii) direction of travel. Why does separation matter? A mode of transportation that is separated from other modes opens the possibility for travelling at higher speeds, with less need for stopping, which makes the journey feel more seamless. 
+What is separation? Separation is all about having dedicated space for (i) different modes and (ii) direction of travel. Why does separation matter? A mode of transportation that is separated from other modes opens the possibility for travelling at higher speeds, with less need for stopping, which makes the journey feel more seamless. 
 
-For the same distance travelled, cyclists who cycle non-stop expend less energy than cyclists who make stops, the latter requiring more energy to accelerate instead of relying on momentum to bring them forward. Driving on highways and commuting on trains are also examples of separation. Highways separate vehicles from other modes and have a barrier to separate vehicles travelling in opposite directions. Therefore, the highway becomes a safer place for vehicles to go at high speeds without needing any traffic lights for control, so you never have to stop unless there is a traffic jam. Trains are similarly separated from other modes by an above-ground or underground track and have separate tracks for each direction. Since trains are separated from other modes of transportation, each train journey takes more or less the same time whether it's peak or non-peak hours. The same could not be said for buses, which shares the road with other vehicles.
+For the same distance travelled, cyclists who cycle non-stop expend less energy than cyclists who make stops, the latter requiring more energy to accelerate instead of relying on momentum to bring them forward. Driving on highways and commuting on trains are also examples of separation. Highways separate vehicles from other modes and have a barrier to separate vehicles travelling in opposite directions. Therefore, the highway becomes a safer place for vehicles to go at high speeds without needing any traffic lights for control, so you never have to stop unless there is a traffic jam. Trains are similarly separated from other modes by an above-ground or underground track and have separate tracks for each direction. Since trains are separated from other modes of transportation, each train journey takes more or less the same time whether it's peak or non-peak hours. The same could not be said for buses that share the road with other vehicles.
 
-So, how's the separation for pedestrian or cyclist infrastructure in Singapore? With the exception of park connectors (PCN) and dedicated cycling paths, the rest of the time, pedestrians and cyclists share the sidewalk. Mixing pedestrians and cyclists brings people, who are travelling at different speeds and in opposite directions, together. The greater the difference in speed, the more control required to avoid collisions and the less seamless travelling feels. Not to mention, waiting at traffic intersections can feel painfully long under Singapore's high temperatures and humidity.
+So, how's the separation for pedestrian or cyclist infrastructure in Singapore? With the exception of park connectors (PCN) and dedicated cycling paths, the rest of the time, pedestrians and cyclists share the sidewalk. Mixing pedestrians and cyclists brings people who are travelling at different speeds and in opposite directions together. The greater the difference in speed, the more control required to avoid collisions and the less seamless travelling feels. 
 
 <div style="display: flex; gap: 10px; width: 100%; aspect-ratio: 16 / 9; max-height: 400px;">
     <img src="/img/blog/20260523_SeparationInPlanning/highway.jpg" alt="Highway" style="flex: 1.5; width: 0; height: 100%; object-fit: cover;">
@@ -22,13 +22,13 @@ So, how's the separation for pedestrian or cyclist infrastructure in Singapore? 
 
 I think walking and cycling would be easier in Singapore if there was more separation between pedestrians and cyclists. 
 
-Before I go into how more separation can be achieved, I wanted to introduce three general categories that I came up with to describe the different parts of a typical cycling or walking route. Depending on which category the route falls into, I have a slightly different interpretation what separation means and consequently, what improvements can be made to increase separation. I will be referring to 'tracts' as land parcels surrounded by roads. 
+Before I go into how more separation can be achieved, I wanted to introduce three general categories that I came up with to describe the different parts of a typical cycling or walking route. Depending on which category the route falls into, I have a slightly different interpretation what separation means and consequently, what improvements can be made to increase separation. I will be referring to land parcels surrounded by roads as 'tracts'. 
 
 **Categories**
 
 1. Travelling along the perimeter of the tract 
    
-2. Travelling between tracts  
+2. Travelling across tracts  
    
 3. Travelling within tracts.
 
@@ -41,9 +41,9 @@ Before I go into how more separation can be achieved, I wanted to introduce thre
 
 For ‘**travelling along the perimeter of the tract**’, the path follows along the road and is usually shared between cyclists and pedestrians. The improvement here is to have dedicated paths for pedestrians and cyclists. These paths should also be wide enough to accomodate two people going in each direction, so people can hold conversations on their journeys.
 
-For ‘**travelling between tracts**’, I'm referring to walking or cycling across an intersection. Some ideas to increase separation for this category include adding bridges or underpasses, increasing the distance between cars and people crossing the road, and lastly, designing routes for pedestrians and  cyclists that do not run alongside roads. The last one is a bit tricky to implement, but I will be giving an example below.
+For ‘**travelling across tracts**’, I'm referring to walking or cycling across an intersection. Some ideas to increase separation for this category include adding bridges or underpasses, increasing the distance between cars and people crossing the road, and lastly, designing routes for pedestrians and  cyclists that do not run alongside roads. The last one is a bit tricky to implement, but I will be giving an example below.
 
-For '**travelling within tracts**', separation between pedestrians, cyclists and vehicles is *typically* not an issue since cars that turn into these minor roads would drive at slower speeds to avoid collisions. I know there are drivers that speed no matter where they are, but in my experience, they are the minority. If you take HDB estates as examples, drivers typically slow down after they go pass the gantry. Pedestrians and cyclists are also usually more comfortable cycling on roads within housing estates than on the main road. In the Netherlands, they have a word for this called [*woonerf*](https://en.wikipedia.org/wiki/Woonerf), which translates loosely to ‘residential grounds’. *Woonerf* streets do not have dedicated cycling paths or pedestrian paths but they do have traffic calming measures like signs that tell drivers they are entering a shared space, making it clear that they are guests in a shared street. 
+For '**travelling within tracts**', separation between pedestrians, cyclists and vehicles is *typically* not an issue since cars that turn into these minor roads would drive at slower speeds to avoid collisions. I know there are drivers that speed no matter where they are, but in my experience, they are the minority. If you take HDB estates as examples, drivers typically slow down after they go past the gantry. Pedestrians and cyclists are also usually more comfortable cycling on roads within housing estates than on the main road. In the Netherlands, they have a word for this called [*woonerf*](https://en.wikipedia.org/wiki/Woonerf), which translates loosely to ‘residential grounds’. *Woonerf* streets do not have dedicated cycling paths or pedestrian paths but they do have traffic calming measures like signs that tell drivers they are entering a shared space, making it clear that they are guests in a shared street. 
 
 Let's look at the first category, **travelling along the tract perimeter**. Increasing the width of sidewalks and cycling paths encourages greater separation while travelling along the tract perimeter. Today, Singapore's sidewalks and cycling paths are only wide enough to fit two people going in the same direction or one person each going in the opposite direction. Based on the design guide in Singapore, sidewalks without cycling paths have widths ranging from 1.5m to 1.8m. Cycling paths add an additional 2.0m of space. 
 
@@ -63,13 +63,13 @@ Based on Singapore's design guide, in the best-case scenario, pedestrians and cy
 {:.table}
 
 
-However, expanding the width of sidewalks and adding cycling paths does come at a land-use cost, like eating into the planted tree area or shrinking the widths of roads. I think a reasonable starting point would be increase the width of paths closest to points of interest, like train stations or schools, where more active mobility traffic is expected to be clustered around. So, not all paths need to have the same expanded length, otherwise it will be underutilised. Perhaps with sufficient resources, it would be more cost-effective to study the foot and bike traffic flow levels in neighbourhoods and assign apprioriate path widths to maximise capacity.
+However, expanding the width of sidewalks and adding cycling paths does come at a land-use cost, like eating into the planted tree area or shrinking the widths of roads. I think a reasonable starting point would be to increase the width of paths closest to points of interest, like train stations or schools, where more pedestrians and cyclists expected to be. So, not all paths need to have the same expanded length, otherwise it will be underutilised. Perhaps with sufficient resources, it would be more cost-effective to study the foot and bike traffic flow levels in neighbourhoods and assign appropriate path widths to maximise capacity.
 
-Now, we turn our attention to ‘**travelling between tracts**’. Greater separation can be achieved for this category if there are dedicated cycling routes that go above or underground from the road level. Admittedly, this would be more difficult to do in Singapore because it would be expensive to drill underground to make an underpass or build an overhead bridge, for every intersection in every neighbourhood. But separating modes by elevation works well. In Singapore, the underground network in Orchard MRT station is a good example. As a pedestrian, walking to all the malls via the underground network is much easier than driving. If you were to drive in that area, one wrong turn could mean driving a long way to make a U-turn.
+Now, we turn our attention to ‘**travelling across tracts**’. Greater separation can be achieved for this category if there are dedicated cycling routes that go above or underground from the road level. Admittedly, this would be more difficult to do in Singapore because it would be expensive to drill underground to make an underpass or build an overhead bridge, for every intersection in every neighbourhood. But separating modes by elevation works well. In Singapore, the underground network in Orchard MRT station is a good example. As a pedestrian, walking to all the malls via the underground network is much easier than driving. If you were to drive in that area, one wrong turn could mean driving a long way to make a U-turn.
 
-A more complex but more effective way of overcoming the mixing of modes at intersections is to have routes that do not follow along the roads. Travelling across an intersection is only necessary when pedestrians and cyclists travel alongside cars on roads, and thus are forced to conform to traffic lights signals. This can be achieved avoided by having alternative routes that cut across the city. It is difficult to plan for such alternative routes, given the land-use constraints, but it has been done in both Singapore and Delft. In Singapore, the Rail Corridor can bring you from Clementi to Queenstown, and it does not follow either the train tracks or the route that a car would take. Alternative routes, when they exist, make travelling way more seamless because you do not have to make any stops for the traffic light.
+A more complex but more effective way of overcoming the mixing of modes at intersections is to have routes that do not follow along the roads. Travelling across an intersection is only necessary when pedestrians and cyclists travel alongside cars on roads, and thus are forced to conform to traffic lights signals. Instead, an alternative to using traffic junctions is alternative routes for cyclists and pedestrians to move around the city. Granted, it is difficult to plan for such alternative routes given land-use constraints, but it has been done in both Singapore and Delft in the form of trails. In Singapore, the Rail Corridor can bring you from Clementi to Queenstown, and it does not follow either the train tracks or the route that a car would take. Alternative routes, when they exist, make travelling way more seamless because you do not have to make any stops for the traffic light.
 
-<div style="display: flex; width: 100%; height: 40vh; overflow: hidden;">
+<div style="display: flex; width: 100%; height: 40vh; overflow: hidden; pointer-events: none">
     <iframe src="https://www.google.com/maps/embed?pb=!4v1785858723921!6m8!1m7!1sDgA5XacZ2XlCVzxzyObmGA!2m2!1d51.98037986901382!2d4.422528865636337!3f297.53647717657066!4f-9.726059645848935!5f0.4000000000000002"  width="600"
     height="450"
     style="flex: 1; width: 0; height: 100%; border: none;"
@@ -88,7 +88,7 @@ A more complex but more effective way of overcoming the mixing of modes at inter
 
 *(Left: A cycling track in Delft that is away from roads; Right: The Rail Corridor in Singapore that is also away from roads)*
 
-Another way to add separation when travelling between tracts is by putting more distance between active mobility users and cars. In Singapore, during peak hours, cyclists tend to cycle out of the dotted lines to avoid pedestrians but are in danger of getting hit by oncoming traffic. In comparison, the crossings for cyclists in Delft are separated from the cars by a wide patch of grass.
+Another way to add separation when travelling across tracts is by putting more distance between cars and other modes at traffic crossings. In Singapore, during peak hours, cyclists tend to cycle out of the dotted lines to avoid pedestrians but are in danger of getting hit by oncoming traffic. In comparison, the crossings for cyclists in Delft are separated from the cars by a wide patch of grass.
 
 <!-- 1. Intersection Singapore -->
 <div style="display: flex; width: 100%; height: 40vh; overflow: hidden;">
@@ -127,8 +127,7 @@ Another way to add separation when travelling between tracts is by putting more 
 
 
 \\
-And finally, **travelling within tracts** would be easier if there were more paths in and out of the tract. In Singapore's case, I am not sure why Singapore’s HDBs estates are elevated, but the way to cut through the HDB estate as a cyclist is limited. Stairs are immediately ruled out for cyclists and the ramps make too many turns. This leaves cyclists with no option but to take the roads into the HDB estate, and puts them next to cars. A better form of separation is to have entrances and exits with slopes for bicycles which reduces the microelevations differences caused by mounds, curbs, drains and other obstructions. Other than this point, I don't really have much else to point out. 
-
+And finally, **travelling within tracts** would be easier if there were more paths in and out of the tract. In Singapore's case, I am not sure why Singapore’s HDB estates are elevated, but the way to cut through the HDB estate as a cyclist is limited. Stairs are immediately ruled out for cyclists and the ramps make too many turns. This leaves cyclists with no option but to take the roads into the HDB estate, and puts them next to cars. A better form of separation is to have entrances and exits with slopes for bicycles to travel within tracts. Also, making sure that obstacles within tracts like curbs and drains are designed to allow easier movement for bicycles and even wheelchair users.
 
 <!-- Entering / Exiting Tracts -->
 <div style="display: flex; width: 100%; height: 40vh; overflow: hidden;">
@@ -149,9 +148,10 @@ And finally, **travelling within tracts** would be easier if there were more pat
     </iframe>
 </div>
 
-\\
-The left street view above shows a residential area (Molenbuurt), in Delft, that seamlessly transitions into a no-car area from the road level. On the right are HDB flats in Woodlands Cresent. If I cut through this tract of HDB flats, I can spend less time travelling than if I were to go around the tract. But there is a mound separating the street level from the block's first level.
+<br>
 
-So there you have it, as I wondered about the general principles to make walking and cycling more seamless in the city, I've come to realised that separation is key.
+The left street view above shows a residential area (Molenbuurt), in Delft, that seamlessly transitions into a no-car area from the road level. On the right are HDB flats in Woodlands Crescent. If I cut through this tract of HDB flats, I can spend less time travelling than if I were to go around the tract. But there is a mound separating the street level from the block's first level.
+
+So there you have it, as I wondered about the general principles to make walking and cycling more seamless in the city, I've realised that separation is key.
 
 
