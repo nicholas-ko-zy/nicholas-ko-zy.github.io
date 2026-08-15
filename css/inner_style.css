@@ -11,8 +11,8 @@
   }
 }
 
-.katex, .katex-display {
-    font-size: 1.5em;  
+article .katex, .katex-display {
+    font-size: 1.2em !important; 
 }
 
 /* Make markers in ordered list bigger */
