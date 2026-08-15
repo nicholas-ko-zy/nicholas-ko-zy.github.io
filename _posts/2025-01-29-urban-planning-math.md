@@ -63,7 +63,6 @@ At the waterfall step, the model distributes housing across the city based on th
 <u> Equation 8 minimises commute time.</u>
 
 $$
-\large
 \begin{align}
 N_j &= g \sum^n_{i=1} \frac{E_i}{T_{ij}} \tag{8} \\ 
 \end{align}
