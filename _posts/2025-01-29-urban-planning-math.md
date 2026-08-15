@@ -193,7 +193,7 @@ $$
 $$
 \large
 \begin{align}
-E_j^k &\geq Z^k \hspace{0.5cm} \text{, or else $E_j^k=0$} \tag{10} \\
+E_j^k &\geq Z^k \hspace{0.5cm} \text{, otherwise $E_j^k=0$} \tag{10} \\
 N_j &\leq Z^H_jA^H_j \tag{11} \\
 A^R_j &\leq A_j - A^U_j -A^B_j \tag{12}
 \end{align} 
