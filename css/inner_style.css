@@ -14,3 +14,12 @@
 .katex, .katex-display {
     font-size: 1em;  
 }
+
+/* Make markers in ordered list bigger */
+article ol ::marker {
+  font-size: 1.2em; 
+}
+
+article ol li {
+  padding-left: 0.3em;
+}

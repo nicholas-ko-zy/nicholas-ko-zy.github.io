@@ -23,6 +23,7 @@ At beginning of modelling process, Lowry divided Pittsburgh into 1-sq mile piece
 The area within the $j$-th tract was a sum of areas for 4 land-use types, represented by equation (1).
 
 $$
+\large
 \begin{align}
   A_j &= A_j^U + A_j^B + A_j^R +A_j^H \tag{1}\\
 \end{align}
