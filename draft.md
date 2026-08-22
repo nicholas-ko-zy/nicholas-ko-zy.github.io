@@ -6,35 +6,23 @@ permalink: /draft/
 
 # Separation Between Modes of Transport in Singapore
 
-Singapore is fairly walkable and bikeable compared to many other cities, but there's room to make it better. I believe the answer lies in **more separation**.
+Singapore is fairly walkable and bikeable compared to many other cities, but there's room to make it even better. I believe the answer lies in **more separation**. What is separation? Separation is about having dedicated spaces for each (i) mode of transportation and (ii) direction of travel.[^1] 
 
-What is separation? Separation is all about having dedicated space for different (i) modes of transportation and (ii) directions of travel.[^1] Why does separation matter? A mode of transportation that is separated from other modes opens the possibility for travelling at higher speeds, with less need for stopping, which makes the journey feel more seamless and pleasant.
+Separating modes allows each mode to safely travel at higher speeds by grouping people who are travelling at similar speeds together. It is easier for our brains to react to objects moving at similar speeds relative to us. The larger the difference in speeds, the shorter the reaction time. That's why crusing on the highway at 90 km/h feels comfortable but trying to merge from a closed lane into a fast-moving lane feels terrifying. The bike path frees the cyclist to go faster than they would on a sidewalk because they do not have to worry about the short reaction times to avoid hitting a pedestrian. Some bike paths also come with barriers to protect the cyclists from getting hit by a faster moving cars.
+
+Separating the direction of travel reduces the need to yield to another person coming in a different direction. Bike paths with dedicated lanes increase separation by removing confusion over which side of the path cyclists should stick to. The key principle here again is that separation reduces the differences in speeds by giving each mode a dedicated space for travel.
+
+[Insert image of the bike path in Singapore]
 
 For Singapore to be even more walkable and bikeable, I believe there needs to be more separation between these categories
 
 1. Pedestrians and Cyclists
    
-2. Pedestrians + Cyclists and Cars
+2. Pedestrians and Cars
+   
+3. Cyclists and Cars
 
-Highways separate cars from pedestrians and cyclist and have a barrier to separate vehicles travelling in opposite directions. Therefore, the highway becomes a safer place for vehicles to go at high speeds without needing any traffic lights for control, so you never have to stop unless there is a traffic jam. Trains are similarly separated from other modes by an above-ground or underground track and have separate tracks for each direction. Since trains are separated from other modes of transportation, each train journey takes more or less the same time whether it's peak or non-peak hours. The same could not be said for buses that share the road with other vehicles.
-
-One thing I wish Singapore had more of is wider sidewalks. The issue isn't so much that today's sidewalks are not wide enough, but thye are not wide enough for the density of our neighbourhoods. I would probably have no issue talking and walking next to someone in an industrial area like Kranji where there's no one else to pass me. However, in the densely populated heartlands, I've often had to give way to someone coming in the opposite direction or someone trying to overtake me from behind. I usually just end up speaking with my friend to the front or back of me. 
-
-As I thought of what Singapore could do to make walking and cycling more seamless, I found the answer in a book I recently read.  I realised that Singapore needed more separation between pedestrians, cyclists and cars to make non-motorised travel more seamless.
-
-Driving on highways and commuting on trains are examples of separation. 
-
-So, how's the separation for pedestrian or cyclist infrastructure in Singapore? With the exception of park connectors (PCN) and dedicated cycling paths, the rest of the time, pedestrians and cyclists share the sidewalk. Mixing pedestrians and cyclists brings people who are travelling at different speeds and in opposite directions together. The greater the difference in speed, the more control required to avoid collisions and the less seamless travelling feels. 
-
-<div style="display: flex; gap: 10px; width: 100%; aspect-ratio: 16 / 9; max-height: 400px;">
-    <img src="/img/blog/20260523_SeparationInPlanning/highway.jpg" alt="Highway" style="flex: 1.5; width: 0; height: 100%; object-fit: cover;">
-    <img src="/img/blog/20260523_SeparationInPlanning/bike_lane.jpg" alt="Bike Lane" style="flex: 1; width: 0; height: 100%; object-fit: cover;">
-</div>
-<p><em>(Left: Highways with median barriers separating cars by their direction of travel, Right: Concrete blocks and plastic poles separating bikes from cars, Source: Unsplash <- To be replaced with my own photos in Singapore>)</em></p>
-
-I think walking and cycling would be easier in Singapore if there was more separation between pedestrians and cyclists. 
-
-Before I go into how more separation can be achieved, I wanted to introduce three general categories that I came up with to describe the different parts of a typical cycling or walking route. Depending on which category the route falls into, I have a slightly different interpretation what separation means and consequently, what improvements can be made to increase separation. I will be referring to land parcels surrounded by roads as 'tracts'. 
+Before I go into the practical changes Singapore can make, I wanted to introduce three general categories that I came up with to describe a typical cycling or walking route. Depending on the category, I have a different interpretation of separation and consequently, a different recommendation for increasing separation. I will be referring to land parcels surrounded by roads as 'tracts'. 
 
 **Categories**
 
