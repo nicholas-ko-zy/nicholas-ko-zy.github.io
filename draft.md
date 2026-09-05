@@ -4,30 +4,23 @@ title: Separation Between Modes of Transport in Singapore
 permalink: /draft/
 ---
 
-# More Separation For A Better Cycling Experience in Singapore
+# More Separation, More Seamless Cycling
 
-Learning mathematics in university has given me a habit of generalising problems I've been thinking about. One specific problem I tried to generalise since the start of the year was, "How do I make cycling feel more seamless in Singapore?". After reading <em>"Shifting Gears"</em>, by Susan Handy, I realised the generalised version of my problem was "How do we increase separation for cyclists given limited land-use?". I will propose a few ideas below.
+I believe cycling can be made more seamless in Singapore if there was more separation between cyclists and pedestrians, as well as cyclists and cars. What is separation?[^1] Separation is about having dedicated space for (i) different modes of transportation and (ii) travel directions. 
 
-What is separation? Separation is about having dedicated space for (i) different modes of transportation and (ii) travel directions. An example that has both types of separation is the two-way bike paths. 
+The two-way bike path is an example of infrastructure that has both kinds of separation.[^2] The two-way bike path separates cyclists from pedestrians and cars, as well as cyclists cycling in opposite directions. The bike path frees the cyclist to go faster because it removes the mental load of reacting to others travelling at different speeds and directions. Cycling feels seamless on a bike path is because our brains are better at reacting to objects moving at similar speeds relative to us. The larger the difference in speeds, the shorter the reaction time. That's why driving on an uncongested highway lane at 90 km/h feels comfortable but trying to change lanes while you're completely stopped on that same highway feels dangerous. The end result of cycling on shared paths or the road is that the trip feels less seamless because you're trying not to hit someone or get hit by someone.
 
 [Insert image of the bike path in Singapore]
 
-Why does separation matter? Separating modes allows cyclists to travel faster and safer. Separation reduces the differences in speeds by giving each mode a dedicated space for travel. On bike paths, cyclists are freed from worrying about hitting a slower pedestrian on a shared path or getting hit by a much faster car on the road. The reason behind this is that our brains are better at reacting to objects moving at similar speeds relative to us. The larger the difference in speeds, the shorter the reaction time. That's why crusing on an uncongested highway lane at 90 km/h feels comfortable but driving at that speed in a residential area is a receipe for murder. The second form of separation is to separate people travelling in different directions. Separating travel direction reduces the consideration of having to avoid crashing into someone going in opposite directions. 
-
-
-A solution to my specific problem, "How do I make my cycling trips feel more seamless in Singapore?", would be to add bike paths. The bike path frees the cyclist to go faster than they would on a shared path because they do not have to worry about the short reaction times to avoid hitting a pedestrian. Likewise, pedestrians can walk leisurely without worrying about giving way to a cyclist on a shared path. Some bike paths also come with barriers to protect the cyclists from getting hit by a faster moving cars. But thinking about my problems within a such a limited scope glosses over the fact that Singapore is a land-scarce city-state with many other competing land-uses. So what then? Well, I think this brings us to the idea of increasing the capacity of the infrastructure that serves the most amout of people. As of 2025, roughly 23% of households own cars which mean the remaining 87% of households do not. I don't think the land-use allocation today around HDB estates reflects that reality. 
-
-I believe walking and and cycling can be made more seamless in Singapore, if there was more separation between bicycles, pedestrians and cars, and different 
-
-Before I go into the practical changes Singapore can make, I wanted to introduce three general categories that I came up with to describe a typical cycling or walking route. Depending on the category, I have a different interpretation of separation and consequently, a different recommendation for increasing separation. I will be referring to land parcels surrounded by roads as 'tracts'. 
+Before I go into the practical changes Singapore can make to increase separation, I wanted to introduce three general categories that I came up with to describe a typical cycling trip. Depending on the category, I have a different interpretation of separation and consequently, a different recommendation for increasing separation. For the sake of this post, I will be referring to land parcels surrounded by roads as 'tracts'. In general, I think cycling trips can be broken up as a sequence of shorter trips that fall into one of three categories:
 
 **Categories**
 
-1. Travelling along the perimeter of the tract 
+1. **Travelling along the perimeter of the tract**: The path follows along the road and is usually shared between cyclists and pedestrians. 
    
-2. Travelling across tracts  
+2. **Travelling across tracts**: Cycling across an intersection, where there mixture of cyclists, pedestrians and cars.
    
-3. Travelling within tracts.
+3. **Travelling within tracts**:
 
 <div style="display: flex; gap: 10px; width: 100%; aspect-ratio: 16 / 9; max-height: 400px;">
     <img src="/img/blog/20260523_SeparationInPlanning/moving_around_within_tracts.png" alt="Moving Around & Within a Tract" style="flex: 1; width: 0; height: 100%; object-fit: cover;">
@@ -36,11 +29,17 @@ Before I go into the practical changes Singapore can make, I wanted to introduce
 
 <p><em>(Left: An example of travelling around and within a tract in Delft, Right: An example of travelling across tracts in Singapore)</em></p>
 
-For ‘**travelling along the perimeter of the tract**’, the path follows along the road and is usually shared between cyclists and pedestrians. The improvement here is to have dedicated paths for pedestrians and cyclists. These paths should also be wide enough to accomodate two people going in each direction, so people can hold conversations on their journeys.
+For ‘**travelling along the perimeter of the tract**’, 
 
-For ‘**travelling across tracts**’, I'm referring to walking or cycling across an intersection. Some ideas to increase separation for this category include adding bridges or underpasses, increasing the distance between cars and people crossing the road, and lastly, designing routes for pedestrians and  cyclists that do not run alongside roads. The last one is a bit tricky to implement, but I will be giving an example below.
+For ‘**travelling across tracts**’, I'm referring to Some ideas to increase separation for this category include 
 
-For '**travelling within tracts**', separation between pedestrians, cyclists and vehicles is *typically* not an issue since cars that turn into these minor roads would drive at slower speeds to avoid collisions. I know there are drivers that speed no matter where they are, but in my experience, they are the minority. If you take HDB estates as examples, drivers typically slow down after they go past the gantry. Pedestrians and cyclists are also usually more comfortable cycling on roads within housing estates than on the main road. In the Netherlands, they have a word for this called [*woonerf*](https://en.wikipedia.org/wiki/Woonerf), which translates loosely to ‘residential grounds’. *Woonerf* streets do not have dedicated cycling paths or pedestrian paths but they do have traffic calming measures like signs that tell drivers they are entering a shared space, making it clear that they are guests in a shared street. 
+- adding bridges or underpasses
+- increasing the distance between cars and people crossing the road
+- designing cycling corridors that do not run parallel to roads.
+
+The last one is a bit tricky to implement in real life because of the additional land-use constraints, but I have provided examples below.
+
+For the last category, '**travelling within tracts**', separation between cyclists and vehicles is *typically* not an issue since cars that turn into these minor roads would drive at slower speeds to avoid collisions. I know there are drivers that speed no matter where they are, but in my experience, they are the minority. If you take HDB estates as examples, drivers typically slow down after they go past the gantry. Pedestrians and cyclists are also usually more comfortable cycling on roads within housing estates than on the main road. In the Netherlands, they have a word for this called [*woonerf*](https://en.wikipedia.org/wiki/Woonerf), which translates loosely to ‘residential grounds’. *Woonerf* streets do not have dedicated cycling paths or pedestrian paths but they do have traffic calming measures like signs that tell drivers they are entering a shared space, making it clear that they are guests in a shared street. 
 
 Let's look at the first category, **travelling along the tract perimeter**. Increasing the width of sidewalks and cycling paths encourages greater separation while travelling along the tract perimeter. Today, Singapore's sidewalks and cycling paths are only wide enough to fit two people going in the same direction or one person each going in the opposite direction. Based on the design guide in Singapore, sidewalks without cycling paths have widths ranging from 1.5m to 1.8m. Cycling paths add an additional 2.0m of space. 
 
@@ -154,3 +153,5 @@ So there you have it, as I wondered about the general principles to make walking
 # Footnotes
 
 [^1]: I first came across the concept of <em>'separation'</em> in Susan Handy's book, [*Shifting Gears*](https://share.google/V3B54ZdijraPsAFGl). 
+
+[^2]: Another example of separation is train tracks, which allow trains to run seamlessly during peak hours because the tracks are built above or underground. Trains also have dedicated track that run in opposite directions.
