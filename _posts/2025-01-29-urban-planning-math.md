@@ -150,6 +150,7 @@ $$
 
 **Employment**
 
+$$
 \large
 \begin{align}
   E^k &= a^k N \tag{2} \\
@@ -158,6 +159,7 @@ $$
   E_j &= E_j^B + \sum^m_{k=1} E^k_j \tag{5} \\
   A^R_j &= \sum^m_{k=1} e^k E_j^k \tag{6}
 \end{align}
+$$
 
 (2) $E^k$ denotes the employment for the $k$-th retail sector, a function of how many people live in the area. Lowry supposed that the more people lived in the area, the more employment required in the retail sector. $a^k$ is a weight that represents the market potential of the given location. 
 
