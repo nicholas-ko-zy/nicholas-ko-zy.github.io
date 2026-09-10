@@ -182,7 +182,7 @@ $$
 
 (7) The region's population of households is a function of employment. The assumption here is that people can only live if they have jobs to pay for housing.
 
-(8) The number of households in a tract is a function of distance to employment opportunities. The $$T_{ij}$$ term handles the pair-wise distance between tracts.
+(8) The number of households in a tract is a function of distance to employment opportunities. The $T_{ij}$ term handles the pair-wise distance between tracts.
 
 (9) Sum of residents in all tracts must equal total population count.
 
