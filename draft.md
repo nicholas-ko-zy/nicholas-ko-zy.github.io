@@ -1,18 +1,14 @@
 ---
 layout: inner
-title: More Separation For More Seamless Cycling
+title: More Separation for Cyclists in Singapore
 permalink: /draft/
 ---
 
-# More Separation For More Seamless Cycling
+# More Separation for Cyclists in Singapore
 
-I believe cycling can be made safer and more efficient in Singapore if there was more separation between cyclists and pedestrians, as well as cyclists and cars. 
+In a country with one of the most expensive car prices, the freedom to travel comes at a premium, but I believe it doesn't have to be. I first want to acknowledge that Singapore does have clean, efficient and affordable public transportation. However, as someone who was born and raised in Singapore, there are many times I've wanted make "medium distance" trips and wished I could've cycled there on my bike. I define "medium distance" trips as trips that are too far for me to walk yet close enough that waiting for a bus takes up the majority of the trip duration that I'd think it's a waste of time, not to mention I can save money on the bus fare. A qualifier to be made is that these destinations are not usually located near an MRT station. Typically, I would compare routes on Google Maps and think to myself hey I could probably cycle there if the sidewalk wasn't so narrow or if there wasn't so much construction in the area. I believe cycling can be made safer and more efficient in Singapore if there was more separation between cyclists and pedestrians, as well as cyclists and cars. 
 
-Why does improving cycling infrastructure matter? I believe cycling is a cheap and efficient way to get around Singapore, and we just need better cycling infrastructure to help Singaporeans save time and money in their commutes. Although Singapore's public transportation is rightfully praised for its affordability and comfort, that's mainly because trains run on tracks and are not subject to traffic jams like cars are. But trains don't go everywhere. Buses, on the other hand, do serve areas that are away from MRT stations, but are notorious for being delayed or have inconsistent arrival times. Cycling can satisfy transportation demand in areas of Singapore where public transportation is either not found or has inconsistent wait times. 
-
-You don't need an advertising campaign to ask people to cycle more, people will vote with their feet and wallets. Despite a rotating door of operators, dockless bike sharing has been around in Singapore for almost 10 years beginning with Ofo in 2017 [^1]. Anywheel, one of two major dockless bike operators in Singapore, was said to have 1.3 million users on its platform in 2024.[^2] From anecdotal accounts and these numbers, I believe Singaporeans are willing to cycle in the heat and humidity either because there's no other affordable alternative (Grab is too expensive) or the alternative takes too long (waiting for the bus).
-
-So, what is separation and why does it make cycling safer and more efficient?[^3] Separation is about having dedicated space for (i) different modes of transportation and (ii) travel directions. The two-way bike path is an example of infrastructure that has both kinds of separation.[^4] One, the two-way bike path provides dedicated space to cyclists, away from pedestrians and cars, and two, it separates cyclists travelling in opposite direction.
+Separation, in general, improves safety and efficiency by (i) dedicating space for a single mode of transportation and (ii) by separating travel directions. An example of infrastructure that enables separation is the expressway. Cars travel faster on expressways since there are no traffic lights to stop for, and there are no traffic lights because there are no pedestrians or cyclists for cars to give way to. There's also a divider that separate cars travelling in opposite directions, so cars can move freely without needing to stop at any intersections. Similarly, cycling around a city would be safer and more efficient if there was more infrastructure that separated bikes from other modes, and bikes travelling in opposite direction. [^4] 
 
 Separation makes cycling safer by reducing the overall variability in speeds of users on the same path. The more transportation modes share a path, the greater the variability in speed and the higher the risks of collisions. For instance, traffic junctions are more dangerous than highways because junctions have a mix of pedestrians, cyclists and cars travelling at different speeds, while highways are just for cars, motorcycles and trucks travelling at similar speeds. The larger the variation in speeds, the less reaction time someone has to avoid a collision. 
 
@@ -25,7 +21,7 @@ Adding separation infrastructure for cyclists also makes cycling more efficient.
 </div>
 <p><em>(Left: Foot and bikepath in Singapore, Right: A sign at the beginning of the path explaining which mode goes where)</em></p>
 
-Before I go into the practical changes Singapore can make to increase separation for bicycles, I wanted to introduce three general categories that I came up with to describe a typical cycling trip. Depending on the category, I have a different interpretation of separation and consequently, a different recommendation for increasing separation. For the sake of this post, I will be referring to land parcels surrounded by roads as 'tracts'. In general, I think cycling trips can be broken up as a sequence of shorter trips that fall into one of three categories:
+Before I go into the practical changes Singapore can make to increase separation for bicycles, I wanted to introduce three general categories that I came up with to describe a typical cycling trip. Depending on the category, I have a different interpretation of separation and consequently, a different recommendation to increase separation. For the sake of this post, I will be referring to land parcels surrounded by roads as 'tracts'. In general, I think cycling trips can be broken up as a sequence of shorter trips that fall into one of three categories:
 
 **Categories**
 
